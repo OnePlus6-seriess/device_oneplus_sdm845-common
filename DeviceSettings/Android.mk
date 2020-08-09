@@ -28,8 +28,9 @@ LOCAL_PACKAGE_NAME := DeviceSettings
 LOCAL_USE_AAPT2 := true
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
-    androidx.core_core 
-    
+    androidx.core_core \
+    SettingsLib
+
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res
 
