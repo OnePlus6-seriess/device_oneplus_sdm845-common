@@ -52,6 +52,7 @@ import com.awaken.device.DeviceSettings.preferences.VibratorCallStrengthPreferen
 import com.awaken.device.DeviceSettings.preferences.VibratorNotifStrengthPreference;
 import com.awaken.device.DeviceSettings.preferences.VibratorStrengthPreference;
 import com.awaken.device.DeviceSettings.preferences.CustomSeekBarPreference;
+import com.awaken.device.DeviceSettings.speaker.ClearSpeakerActivity;
 
 public class DeviceSettings extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
@@ -78,6 +79,7 @@ public class DeviceSettings extends PreferenceFragment
     private VibratorNotifStrengthPreference mVibratorNotifStrength;
     private static final String PREF_DOZE = "advanced_doze_settings";
     public static final String KEY_SETTINGS_PREFIX = "device_setting_";
+    private static final String PREF_CLEAR_SPEAKER = "clear_speaker_settings";
 
     private static TwoStatePreference mHBMModeSwitch;
     private static TwoStatePreference mAutoHBMSwitch;
@@ -85,6 +87,7 @@ public class DeviceSettings extends PreferenceFragment
     private ListPreference mTopKeyPref;
     private ListPreference mMiddleKeyPref;
     private ListPreference mBottomKeyPref;
+    private Preference mClearSpeakerPref;    
     private static SwitchPreference mFpsInfo;
     private Preference mDozeSettings;
     private CustomSeekBarPreference mMicrophoneGain;
@@ -161,6 +164,12 @@ public class DeviceSettings extends PreferenceFragment
         mSpeakerGain = (CustomSeekBarPreference) findPreference(PREF_SPEAKER_GAIN);
         mSpeakerGain.setOnPreferenceChangeListener(this);
 
+        mClearSpeakerPref = (Preference) findPreference(PREF_CLEAR_SPEAKER);
+        mClearSpeakerPref.setOnPreferenceClickListener(preference -> {
+            Intent intent = new Intent(getActivity().getApplicationContext(), ClearSpeakerActivity.class);
+            startActivity(intent);
+            return true;
+        });
     }
 
     @Override
