@@ -28,13 +28,18 @@ import androidx.preference.PreferenceManager;
 import com.awaken.device.DeviceSettings.preferences.VibratorCallStrengthPreference;
 import com.awaken.device.DeviceSettings.preferences.VibratorNotifStrengthPreference;
 import com.awaken.device.DeviceSettings.preferences.VibratorStrengthPreference;
+import com.awaken.device.DeviceSettings.FileUtils;
 
 public class Startup extends BroadcastReceiver {
 
     private boolean mHBM = false;
+    private Context settingsContext = null;
+    private Context mContext;
 
     @Override
     public void onReceive(final Context context, final Intent bootintent) {
+
+        mContext = context;
 
         VibratorStrengthPreference.restore(context);
         VibratorCallStrengthPreference.restore(context);
@@ -52,6 +57,14 @@ public class Startup extends BroadcastReceiver {
         mHBM = false;
         restore(DCModeSwitch.getFile(), enabled);
                }
+
+        FileUtils.setValue(DeviceSettings.MICROPHONE_GAIN_PATH, Settings.Secure.getInt(context.getContentResolver(),
+                DeviceSettings.PREF_MICROPHONE_GAIN, 0));
+        FileUtils.setValue(DeviceSettings.EARPIECE_GAIN_PATH, Settings.Secure.getInt(context.getContentResolver(),
+                DeviceSettings.PREF_EARPIECE_GAIN, 0));
+        FileUtils.setValue(DeviceSettings.SPEAKER_GAIN_PATH, Settings.Secure.getInt(context.getContentResolver(),
+                DeviceSettings.PREF_SPEAKER_GAIN, 0));
+
         enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_FPS_INFO, false);
         if (enabled) {
             context.startService(new Intent(context, FPSInfoService.class));

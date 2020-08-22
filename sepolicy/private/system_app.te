@@ -1,4 +1,6 @@
 allow system_app sysfs_dm:file rw_file_perms;
 allow system_app sysfs_vibrator:file rw_file_perms;
 allow system_app sysfs_vibrator:dir r_dir_perms;
-
+allow system_app sysfs_egain:file { open read getattr write };
+allow system_app sysfs_mgain:file { open read getattr write };
+allow system_app sysfs_sgain:file { open read getattr write };

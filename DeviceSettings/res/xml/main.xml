@@ -10,7 +10,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
         <PreferenceCategory
             android:key="graphics"
             android:title="@string/display_title">
@@ -83,6 +84,37 @@
             android:title="@string/fps_info_title"
             android:summary="@string/fps_info_summary"
             android:persistent="true" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="audio"
+        android:title="@string/audio_amplification">
+
+        <com.awaken.device.DeviceSettings.preferences.CustomSeekBarPreference
+            android:defaultValue="0"
+            android:key="microphone_gain"
+            android:max="20"
+            app:min="-10"
+            android:icon="@drawable/ic_mic"
+            android:title="@string/microphone_gain" />
+
+        <com.awaken.device.DeviceSettings.preferences.SecureSettingCustomSeekBarPreference
+            android:defaultValue="0"
+            android:key="earpiece_gain"
+            android:max="20"
+            app:min="-10"
+            android:icon="@drawable/ic_earpiece"
+            android:title="@string/earpiece_gain" />
+
+        <com.awaken.device.DeviceSettings.preferences.SecureSettingCustomSeekBarPreference 
+            android:defaultValue="0"
+            android:key="speaker_gain" 
+            android:max="20"
+            app:min="-10" 
+            android:icon="@drawable/ic_speaker"
+            android:title="@string/speaker_gain" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
