@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="proper_seekbar_value">मान:<xliff:g id="v">%s</xliff:g></string>
+  <string name="proper_seekbar_default_value">डिफ़ॉल्ट रूप से</string>
+  <string name="proper_seekbar_default_value_to_set">डिफ़ॉल्ट मान:<xliff:g id="v">%s</xliff:g>\nलंबा नल सेट करने के लिए</string>
+  <string name="proper_seekbar_default_value_is_set">डिफ़ॉल्ट मान सेट है</string>
+</resources>
