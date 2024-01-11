@@ -189,6 +189,10 @@ PRODUCT_COPY_FILES += \
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
+# Device Settings
+PRODUCT_PACKAGES += \
+     DeviceSettings
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.3-service \
@@ -405,8 +409,8 @@ PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.oneplus
 
 # tri-state-key
-PRODUCT_PACKAGES += \
-    KeyHandler
+#PRODUCT_PACKAGES += \
+#    KeyHandler
 
 # Trust HAL
 PRODUCT_PACKAGES += \
