@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2017 The OmniROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_title">OnePlus Lab</string>
+    <string name="device_summary">Adjust OnePlus specific device settings</string>
+    <!-- Display modes -->
+    <string name="display_title">ডিসপ্লের বিভিন্ন মোড</string>
+    <string name="display_summary">ডিসপ্লের সেটিংস এবং বিভিন্ন দিক নিয়ন্ত্রণ</string>
+    <string name="srgb_mode_summary"></string>
+    <string name="srgb_mode_title">এসআরজিবি মোড</string>
+    <string name="hbm_mode_summary"></string>
+    <string name="hbm_mode_title">সর্বোচ্চ উজ্জলতা</string>
+    <string name="auto_hbm_summary"></string>
+    <string name="auto_hbm_title">স্বয়ংক্রিয় সর্বোচ্চ উজ্জলতা</string>
+    <string name="auto_hbm_threshold_title">কত সীমায় সর্বোচ্চ উজ্জ্বলতা স্বয়ংক্রিয়ভাবে চালু হবে (lux)</string>
+    <string name="auto_hbm_threshold_summary"></string>
+    <string name="dc_mode_summary"></string>
+    <string name="dc_mode_title">ডিসি-ডিমিং (ডিসপ্লে তে আসা কারেন্ট নিয়ন্ত্রণ)</string>
+    <string name="dci_mode_summary"></string>
+    <string name="dci_mode_title">ডিসিআই-পি৩ প্রশস্ত কালার গামুট মোড</string>
+    <string name="wide_mode_summary"></string>
+    <string name="wide_mode_title">প্রশস্ত কালার মোড</string>
+    <string name="panel_category_title">ডিসপ্লের প্যানেল মোডস</string>
+    <string name="panel_category_summary">প্যানেলের কালার সংশোধন মোডস</string>
+    <string name="off_mode_title">বন্ধ</string>
+    <string name="tile_panel_mode">ডিসপ্লের প্যানেল মোডস</string>
+    <string name="tile_hbm_mode">সর্বোচ্চ উজ্জলতা মোড</string>
+    <string name="tile_dc_mode">ডিসি-ডিমিং (ডিসপ্লে তে আসা কারেন্ট নিয়ন্ত্রণ)</string>
+    <!-- Doze -->
+    <string name="doze_panel_title">ডোজ</string>
+    <string name="ambient_display_gestures_title">অ্যাম্বিয়েন্ট ডিসপ্লে জেশ্চারস</string>
+    <string name="ambient_display_gestures_summary">স্ক্রীন চালু করতে অতিরিক্ত জেশ্চারস</string>
+    <string name="doze_settings_help_title">সাহায্য</string>
+    <string name="doze_settings_help_text">এই ফিচারগুলো ডোজ নোটিফিকেশন পালস চালু করতে সেন্সর ব্যবহার করে। চিহ্নিত সেন্সরগুলো শুধুমাত্র নোটিফিকেশন আসলেই চালু হয়, যা ব্যাটারির ব্যবহার কমায়। আরো একটি অপশন আছে যেটি স্ক্রিন বন্ধ হওয়ার সাথে সাথে সেন্সর চালু করে দেয় যা ব্যাটারির ব্যবহার বাড়িয়ে দেয়।</string>
+    <string name="dialog_ok">ওকে</string>
+    <string name="switch_bar_off">বন্ধ</string>
+    <string name="switch_bar_on">চালু</string>
+    <string name="ambient_display_title">এম্বিয়েন্ট ডিসপ্লে</string>
+    <string name="ambient_display_always_on_title">সব সময় চালু</string>
+    <string name="ambient_display_always_on_summary">সময, নোটিফিকেশন আইকন এবং অন্যান্য তথ্য দেখানো।অতিরিক্ত ব্যাটারির ব্যবহার।</string>
+    <string name="pickup_sensor_title">পিকআপ সেন্সর</string>
+    <string name="pick_up_gesture_title">পিক-আপ</string>
+    <string name="pick_up_gesture_summary">পিক-আপের সময় নোটিফিকেশন পালস</string>
+    <string name="raise_to_wake_gesture_title">উঠালে চালু হওয়া</string>
+    <string name="raise_to_wake_gesture_summary">নোটিফিকেশন পালসিং এর বদলে ফোন চালু হওয়া</string>
+    <string name="proximity_sensor_title">প্রক্সিমিটি সেন্সর</string>
+    <string name="pocket_gesture_title">পকেট</string>
+    <string name="pocket_gesture_summary">পকেট থেকে বের করলে নোটিফিকেশন পালস</string>
+    <!-- FPS info -->
+    <string name="fps_title">FPS পরিমাপণ</string>
+    <string name="fps_info_title">FPS overlay</string>
+    <string name="fps_info_summary">ওভারলে দেখানো প্রতি সেকেন্ডে ফ্রেম্সের সাথে</string>
+    <!-- Notification slider -->
+    <string name="notification_slider_title">নোটিফিকেশন স্লাইডার</string>
+    <string name="notification_slider_selection_dialog_title">কাজ</string>
+    <string name="notification_slider_top_position">সর্বোচ্চ অবস্থান</string>
+    <string name="notification_slider_middle_position">মধ্যম অবস্থান</string>
+    <string name="notification_slider_bottom_position">সর্বনিম্ন অবস্থান</string>
+    <string name="notification_slider_mode_total_silence">সম্পূর্ণ নীরবতা</string>
+    <string name="notification_slider_mode_alarms_only">শুধুমাত্র এলার্ম</string>
+    <string name="notification_slider_mode_priority_only">শুধুমাত্র অগ্রাধিকারিরা</string>
+    <string name="notification_slider_mode_silent">নীরবতা</string>
+    <string name="notification_slider_mode_vibrate">ভাইব্রেট</string>
+    <string name="notification_slider_mode_none">সাধারণ</string>
+    <string name="buttons_dashboard_summary">অ্যালার্ট স্লাইডার সেটিংস</string>
+    <!-- Vibration control -->
+    <string name="vibrator_title">ভাইব্রেটর</string>
+    <string name="vib_strength_title_head">সিস্টেমের শক্তি</string>
+    <string name="vib_strength_summary_head">ভাইব্রেটরের শক্তি নির্ধারণ করুন</string>
+    <string name="vib_call_strength_title_head">কলের ক্ষেত্রে শক্তি</string>
+    <string name="vib_call_strength_summary_head">ইনকামিং কলের ক্ষেত্রে ভাইব্রেটরের শক্তি নির্ধারণ করুন</string>
+    <string name="vib_notif_strength_title_head">নোটিফিকেশনের ক্ষেত্রে শক্তি</string>
+    <string name="vib_notif_strength_summary_head">ইনকামিং নোটিফিকেশনের ক্ষেত্রে ভাইব্রেটরের শক্তি নির্ধারণ করুন</string>
+</resources>

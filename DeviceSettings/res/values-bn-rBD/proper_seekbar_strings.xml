@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="proper_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+  <string name="proper_seekbar_default_value">সাধারণভাবে</string>
+  <string name="proper_seekbar_default_value_to_set">সাধারণ মান: <xliff:g id="v">%s</xliff:g>\nস্থাপন করতে চেপে ধরুন</string>
+  <string name="proper_seekbar_default_value_is_set">সাধারণ মান স্থাপিত হলো</string>
+</resources>
