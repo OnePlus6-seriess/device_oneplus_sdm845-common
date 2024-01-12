@@ -39,7 +39,8 @@
         <!-- Device Settings -->
         <activity
             android:name=".DeviceSettingsActivity"
-            android:label="@string/device_title">
+            android:label="@string/device_title"
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
             </intent-filter>
@@ -70,7 +71,8 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="com.awaken.device.DeviceSettings.Startup" >
+	<receiver android:name="com.awaken.device.DeviceSettings.Startup"
+                  android:exported="false">
             <intent-filter android:priority="100" >
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
@@ -92,6 +94,7 @@
             android:name="com.awaken.device.DeviceSettings.DeviceSettingsTileService"
             android:icon="@drawable/ic_settings_device"
             android:label="@string/device_title"
+            android:exported="false"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action
@@ -108,6 +111,7 @@
             android:name="com.awaken.device.DeviceSettings.PanelModeTileService"
             android:icon="@drawable/ic_panel_tile"
             android:label="@string/tile_panel_mode"
+            android:exported="false"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action
@@ -120,6 +124,7 @@
             android:name="com.awaken.device.DeviceSettings.HBMModeTileService"
             android:icon="@drawable/ic_hbm_tile"
             android:label="@string/tile_hbm_mode"
+            android:exported="false"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action
@@ -135,6 +140,7 @@
             android:name="com.awaken.device.DeviceSettings.DCModeTileService"
             android:icon="@drawable/ic_dc_tile"
             android:label="@string/tile_dc_mode"
+            android:exported="false"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action
@@ -147,6 +153,7 @@
             android:name=".FPSTileService"
             android:icon="@drawable/ic_fps"
             android:label="@string/fps_info_title"
+            android:exported="false"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action
@@ -159,6 +166,7 @@
             android:name="com.awaken.device.DeviceSettings.doze.DozeTileService"
             android:icon="@drawable/ic_eye"
             android:label="@string/ambient_display_gestures_title"
+            android:exported="false"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action
@@ -193,6 +201,7 @@
             android:name="com.awaken.device.DeviceSettings.LogTile"
             android:icon="@drawable/ic_qs_log"
             android:label="@string/quick_settings_log_tile_label"
+            android:exported="false"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action
