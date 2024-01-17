@@ -16,8 +16,6 @@
     <!-- Display modes -->
     <string name="display_title">ডিসপ্লের বিভিন্ন মোড</string>
     <string name="display_summary">ডিসপ্লের সেটিংস এবং বিভিন্ন দিক নিয়ন্ত্রণ</string>
-    <string name="srgb_mode_summary"></string>
-    <string name="srgb_mode_title">এসআরজিবি মোড</string>
     <string name="hbm_mode_summary"></string>
     <string name="hbm_mode_title">সর্বোচ্চ উজ্জলতা</string>
     <string name="auto_hbm_summary"></string>
@@ -26,14 +24,7 @@
     <string name="auto_hbm_threshold_summary"></string>
     <string name="dc_mode_summary"></string>
     <string name="dc_mode_title">ডিসি-ডিমিং (ডিসপ্লে তে আসা কারেন্ট নিয়ন্ত্রণ)</string>
-    <string name="dci_mode_summary"></string>
-    <string name="dci_mode_title">ডিসিআই-পি৩ প্রশস্ত কালার গামুট মোড</string>
-    <string name="wide_mode_summary"></string>
-    <string name="wide_mode_title">প্রশস্ত কালার মোড</string>
-    <string name="panel_category_title">ডিসপ্লের প্যানেল মোডস</string>
-    <string name="panel_category_summary">প্যানেলের কালার সংশোধন মোডস</string>
     <string name="off_mode_title">বন্ধ</string>
-    <string name="tile_panel_mode">ডিসপ্লের প্যানেল মোডস</string>
     <string name="tile_hbm_mode">সর্বোচ্চ উজ্জলতা মোড</string>
     <string name="tile_dc_mode">ডিসি-ডিমিং (ডিসপ্লে তে আসা কারেন্ট নিয়ন্ত্রণ)</string>
     <!-- Doze -->

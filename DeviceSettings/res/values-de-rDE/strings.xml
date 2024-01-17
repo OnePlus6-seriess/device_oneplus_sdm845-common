@@ -16,8 +16,6 @@
     <!-- Display modes -->
     <string name="display_title">Bildschirm Modi</string>
     <string name="display_summary">Einstellungen und Eigenschaften für den Bildschirm anpassen</string>
-    <string name="srgb_mode_summary"></string>
-    <string name="srgb_mode_title">sRGB Mudus</string>
     <string name="hbm_mode_summary"></string>
     <string name="hbm_mode_title">Hohe Helligkeit Modus</string>
     <string name="auto_hbm_summary"></string>
@@ -26,14 +24,7 @@
     <string name="auto_hbm_threshold_summary"></string>
     <string name="dc_mode_summary"></string>
     <string name="dc_mode_title">DC-Dimmen</string>
-    <string name="dci_mode_summary"></string>
-    <string name="dci_mode_title">DCI-P3 breiter Farbbereich Modus</string>
-    <string name="wide_mode_summary"></string>
-    <string name="wide_mode_title">Breite Farbbereichmodus</string>
-    <string name="panel_category_title">Panel-Modi</string>
-    <string name="panel_category_summary">Modi für die Farbkorrektur des Panels</string>
     <string name="off_mode_title">Aus</string>
-    <string name="tile_panel_mode">Panel-Modi</string>
     <string name="tile_hbm_mode">Hohe Helligkeit Modus</string>
     <string name="tile_dc_mode">DC-Dimmen</string>
     <!-- Doze -->

@@ -16,8 +16,6 @@
     <!-- Display modes -->
     <string name="display_title">أوضاع العرض</string>
     <string name="display_summary">ضبط الإعدادات والتفضيلات للعرض</string>
-    <string name="srgb_mode_summary"></string>
-    <string name="srgb_mode_title">وضع sRGB</string>
     <string name="hbm_mode_summary"></string>
     <string name="hbm_mode_title">وضع السطوع العالي</string>
     <string name="auto_hbm_summary"></string>
@@ -26,14 +24,7 @@
     <string name="auto_hbm_threshold_summary"></string>
     <string name="dc_mode_summary"></string>
     <string name="dc_mode_title">DC-Dimming</string>
-    <string name="dci_mode_summary"></string>
-    <string name="dci_mode_title">وضع ألوان غامبوت الموسعة DCI-P3</string>
-    <string name="wide_mode_summary"></string>
-    <string name="wide_mode_title">وضع الألوان الواسع</string>
-    <string name="panel_category_title">أوضاع اللوحات</string>
-    <string name="panel_category_summary">أوضاع تصحيح لون اللوحة</string>
     <string name="off_mode_title">متوقف</string>
-    <string name="tile_panel_mode">أوضاع اللوحات</string>
     <string name="tile_hbm_mode">وضع السطوع العالي</string>
     <string name="tile_dc_mode">DC-Dimming</string>
     <!-- Doze -->
