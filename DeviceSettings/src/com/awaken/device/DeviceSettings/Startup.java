@@ -42,11 +42,6 @@ public class Startup extends BroadcastReceiver {
 
         boolean enabled = false;
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
-        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_SRGB_SWITCH, false);
-        if (enabled) {
-        mHBM = false;
-        restore(SRGBModeSwitch.getFile(), enabled);
- 	       }
         enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_HBM_SWITCH, false);
         if (enabled) {
         mHBM = true;
@@ -56,16 +51,6 @@ public class Startup extends BroadcastReceiver {
         if (enabled) {
         mHBM = false;
         restore(DCModeSwitch.getFile(), enabled);
-               }
-        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_DCI_SWITCH, false);
-        if (enabled) {
-        mHBM = false;
-        restore(DCIModeSwitch.getFile(), enabled);
-               }
-        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_WIDE_SWITCH, false);
-        if (enabled) {
-        mHBM = false;
-        restore(WideModeSwitch.getFile(), enabled);
                }
         enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_FPS_INFO, false);
         if (enabled) {

@@ -16,8 +16,6 @@
     <!-- Display modes -->
     <string name="display_title">प्रदर्शन मोड</string>
     <string name="display_summary">प्रदर्शन के लिए सेटिंग्स और वरीयताओं को समायोजित करें</string>
-    <string name="srgb_mode_summary"></string>
-    <string name="srgb_mode_title">sRGB मोड</string>
     <string name="hbm_mode_summary"></string>
     <string name="hbm_mode_title">उच्च चमक मोड</string>
     <string name="auto_hbm_summary"></string>
@@ -26,14 +24,7 @@
     <string name="auto_hbm_threshold_summary"></string>
     <string name="dc_mode_summary"></string>
     <string name="dc_mode_title">डीसी धुंधली</string>
-    <string name="dci_mode_summary"></string>
-    <string name="dci_mode_title">DCI-P3 चौड़ा रंग सरगम ​​मोड</string>
-    <string name="wide_mode_summary"></string>
-    <string name="wide_mode_title">वाइड रंग मोड</string>
-    <string name="panel_category_title">पैनल मोड</string>
-    <string name="panel_category_summary">पैनल रंग सुधार के लिए मोड</string>
     <string name="off_mode_title">बंद</string>
-    <string name="tile_panel_mode">पैनल मोड</string>
     <string name="tile_hbm_mode">उच्च चमक मोड</string>
     <string name="tile_dc_mode">डीसी धुंधली</string>
     <!-- Doze -->

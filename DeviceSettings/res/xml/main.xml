@@ -39,17 +39,6 @@
             android:summary="@string/auto_hbm_threshold_summary" />
 
         <Preference
-            android:key="panel_category"
-            android:icon="@drawable/ic_panel_modes_icon"
-            android:title="@string/panel_category_title"
-            android:summary="@string/panel_category_summary"
-            android:persistent="false" >
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.awaken.device.DeviceSettings"
-                    android:targetClass="com.awaken.device.DeviceSettings.PanelSettingsActivity" />
-        </Preference>
-
-        <Preference
             android:icon="@drawable/ic_info_outline_24dp"
             android:persistent="false"
             android:summary="@string/hbm_mode_warning" />
