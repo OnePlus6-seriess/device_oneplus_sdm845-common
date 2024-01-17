@@ -60,17 +60,6 @@
         <activity android:name=".DeviceSettings" />
         <activity android:name=".KeyHandler" />
 
-        <activity
-            android:name="com.awaken.device.DeviceSettings.PanelSettingsActivity"
-            android:exported="true"
-            android:label="@string/panel_category_title"
-            android:launchMode="singleTask" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
 	<receiver android:name="com.awaken.device.DeviceSettings.Startup"
                   android:exported="false">
             <intent-filter android:priority="100" >
@@ -105,19 +94,6 @@
             android:name="androidx.startup.InitializationProvider"
             android:authorities="${applicationId}.androidx-startup"
             tools:replace="android:authorities"/>
-
-        <!-- Panel Mode's tile -->
-        <service
-            android:name="com.awaken.device.DeviceSettings.PanelModeTileService"
-            android:icon="@drawable/ic_panel_tile"
-            android:label="@string/tile_panel_mode"
-            android:exported="false"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
-            <intent-filter>
-                <action
-                    android:name="android.service.quicksettings.action.QS_TILE"/>
-            </intent-filter>
-        </service>
 
         <!-- HBM tile -->
         <service
@@ -183,19 +159,6 @@
                  android:permission="OneplusDozeService">
         </service>
 
-        <!-- Search Provider -->
-        <provider
-            android:name=".ConfigPanelSearchIndexablesProvider"
-            android:authorities="com.awaken.device"
-            android:multiprocess="false"
-            android:grantUriPermissions="true"
-            android:permission="android.permission.READ_SEARCH_INDEXABLES"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />
-            </intent-filter>
-        </provider>
-        
         <!-- Log Tile -->
         <service
             android:name="com.awaken.device.DeviceSettings.LogTile"
