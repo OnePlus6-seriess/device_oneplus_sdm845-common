@@ -24,6 +24,7 @@ import android.content.SharedPreferences;
 import android.provider.Settings;
 import android.text.TextUtils;
 import androidx.preference.PreferenceManager;
+import com.awaken.device.DeviceSettings.kcal.KCalSettings;
 
 import com.awaken.device.DeviceSettings.preferences.VibratorCallStrengthPreference;
 import com.awaken.device.DeviceSettings.preferences.VibratorNotifStrengthPreference;
@@ -39,6 +40,7 @@ public class Startup extends BroadcastReceiver {
         VibratorStrengthPreference.restore(context);
         VibratorCallStrengthPreference.restore(context);
         VibratorNotifStrengthPreference.restore(context);
+        KCalSettings.restore(context);
 
         boolean enabled = false;
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);

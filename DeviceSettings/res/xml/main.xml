@@ -61,6 +61,19 @@
             android:summary="@string/hbm_mode_warning" />
     </PreferenceCategory>
 
+
+        <Preference
+        android:key="device_kcal"
+        android:persistent="false"
+        android:icon="@drawable/ic_kcal"
+        android:title="@string/device_kcal_title"
+        android:summary="@string/kcal_enabled_summary">
+        <intent
+        android:action="android.intent.action.MAIN"
+        android:targetClass="com.awaken.device.DeviceSettings.kcal.KCalSettingsActivity"
+        android:targetPackage="com.awaken.device.DeviceSettings.kcal" />
+      </Preference>
+
     <PreferenceCategory
         android:key="doze"
         android:title="@string/doze_panel_title">

@@ -51,6 +51,7 @@ import com.awaken.device.DeviceSettings.preferences.ProperSeekBarPreference;
 import com.awaken.device.DeviceSettings.preferences.VibratorCallStrengthPreference;
 import com.awaken.device.DeviceSettings.preferences.VibratorNotifStrengthPreference;
 import com.awaken.device.DeviceSettings.preferences.VibratorStrengthPreference;
+import com.awaken.device.DeviceSettings.kcal.KCalSettingsActivity;
 
 public class DeviceSettings extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
@@ -62,6 +63,8 @@ public class DeviceSettings extends PreferenceFragment
 
     public static final String KEY_FPS_INFO = "fps_info";
 
+    public static final String PREF_DEVICE_KCAL = "device_kcal";
+    public static final String CATEGORY_DISPLAY = "display"; 
     public static final String KEY_VIBSTRENGTH = "vib_strength";
     private VibratorStrengthPreference mVibratorStrength;
     public static final String KEY_CALL_VIBSTRENGTH = "vib_call_strength";
@@ -79,6 +82,7 @@ public class DeviceSettings extends PreferenceFragment
     private ListPreference mBottomKeyPref;
     private static SwitchPreference mFpsInfo;
     private Preference mDozeSettings;
+    private Preference mKcal;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -124,6 +128,13 @@ public class DeviceSettings extends PreferenceFragment
         mAutoHBMSwitch = (TwoStatePreference) findPreference(KEY_AUTO_HBM_SWITCH);
         mAutoHBMSwitch.setChecked(PreferenceManager.getDefaultSharedPreferences(getContext()).getBoolean(DeviceSettings.KEY_AUTO_HBM_SWITCH, false));
         mAutoHBMSwitch.setOnPreferenceChangeListener(this);
+
+        mKcal = findPreference(PREF_DEVICE_KCAL);
+        mKcal.setOnPreferenceClickListener(preference -> {
+            Intent intent = new Intent(getActivity().getApplicationContext(), KCalSettingsActivity.class);
+            startActivity(intent);
+            return true;
+        });
 
         mDCModeSwitch = (TwoStatePreference) findPreference(KEY_DC_SWITCH);
         mDCModeSwitch.setEnabled(DCModeSwitch.isSupported());

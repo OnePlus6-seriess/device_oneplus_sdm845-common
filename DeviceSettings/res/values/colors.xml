@@ -11,10 +11,11 @@
      limitations under the License.
 -->
 
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <color name="primary_color">#FFFFFF</color>
     <color name="switchbar_background_color">@*android:color/material_grey_600</color>
     <color name="switchbar_switch_track_tint">#BFFFFFFF</color>
     <color name="switchbar_switch_thumb_tint">@android:color/white</color>
     <color name="settings_background">#eb0029</color>
+    <color name="disabled_text_color">#66000000</color>
 </resources>

@@ -36,7 +36,8 @@
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title"
         android:textColor="?android:attr/textColorPrimaryInverse"
         android:textSize="16sp"
-        android:textAlignment="viewStart" />
+        android:textAlignment="viewStart"
+        android:text="@string/switch_bar_on" />
 
     <Switch
         android:id="@android:id/switch_widget"
