@@ -13,3 +13,6 @@
 
 # Kcal
 /sys/module/msm_drm/parameters(/.*)?            u:object_r:kcal_dev:s0
+
+# Adreno Boost
+/sys/devices/platform/soc/5000000.qcom,kgsl-3d0/devfreq/5000000.qcom,kgsl-3d0/adrenoboost

@@ -41,6 +41,7 @@ public class Startup extends BroadcastReceiver {
         VibratorCallStrengthPreference.restore(context);
         VibratorNotifStrengthPreference.restore(context);
         KCalSettings.restore(context);
+        AdrenoGPUBoostPreference.restore(context);
 
         boolean enabled = false;
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);

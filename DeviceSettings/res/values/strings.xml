@@ -161,4 +161,8 @@
     <!-- Label for feature switch -->
     <string name="switch_bar_off">Off</string>
 
+    <!-- CPU -->
+    <string name="cpu_title">CPU</string>
+    <string name="gpu_boost_title">Adreno Boost value</string>
+    <string name="gpu_boost_summary">Boost Adreno GPU frequencies more aggressively under load</string>
 </resources>

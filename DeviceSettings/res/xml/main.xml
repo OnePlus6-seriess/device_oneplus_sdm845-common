@@ -134,6 +134,16 @@
           android:entryValues="@array/notification_slider_action_entry_values" />
     </PreferenceCategory>
 
+    <!-- Start of CPU Category -->
+    <PreferenceCategory
+        android:key="cpu"
+        android:title="@string/cpu_title">
+        <com.awaken.device.DeviceSettings.preferences.AdrenoGPUBoostPreference
+            android:key="gpu_boost"
+            android:title="@string/gpu_boost_title"
+            android:summary="@string/gpu_boost_summary" />
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:title="@string/vibrator_title">
         <com.awaken.device.DeviceSettings.preferences.VibratorStrengthPreference

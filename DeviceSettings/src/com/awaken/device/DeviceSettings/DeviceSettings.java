@@ -73,7 +73,10 @@ public class DeviceSettings extends PreferenceFragment
     private VibratorNotifStrengthPreference mVibratorNotifStrength;
     private static final String PREF_DOZE = "advanced_doze_settings";
     public static final String KEY_SETTINGS_PREFIX = "device_setting_";
+    public static final String KEY_CATEGORY_CPU = "cpu";
+    public static final String KEY_GPU_BOOST_AMOUNT = "gpu_boost";
 
+    private AdrenoGPUBoostPreference mGPUBoostAmount;
     private static TwoStatePreference mHBMModeSwitch;
     private static TwoStatePreference mAutoHBMSwitch;
     private static TwoStatePreference mDCModeSwitch;
@@ -190,4 +193,13 @@ public class DeviceSettings extends PreferenceFragment
         }
         return super.onOptionsItemSelected(item);
     }
+
+        // GPU Boost
+            mGPUBoostAmount = (AdrenoGPUBoostPreference) findPreference(KEY_GPU_BOOST_AMOUNT);
+            if (mGPUBoostAmount != null) {
+            }
+        else {
+           findPreference(KEY_GPU_BOOST_AMOUNT).setVisible(false);
+        }
+
 }
