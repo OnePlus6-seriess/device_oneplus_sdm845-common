@@ -158,9 +158,6 @@
     <!-- Label for feature switch -->
     <string name="switch_bar_on">On</string>
 
-    <!-- Label for feature switch -->
-    <string name="switch_bar_off">Off</string>
-
     <!-- CPU -->
     <string name="cpu_title">CPU</string>
     <string name="gpu_boost_title">Adreno Boost value</string>
