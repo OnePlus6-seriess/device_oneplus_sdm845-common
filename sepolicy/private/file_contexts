@@ -16,3 +16,6 @@
 
 # Adreno Boost
 /sys/devices/platform/soc/5000000.qcom,kgsl-3d0/devfreq/5000000.qcom,kgsl-3d0/adrenoboost
+
+# Adreno GPU Throttling
+/sys/class/kgsl/kgsl-3d0/throttling

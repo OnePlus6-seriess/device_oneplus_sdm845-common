@@ -75,7 +75,9 @@ public class DeviceSettings extends PreferenceFragment
     public static final String KEY_SETTINGS_PREFIX = "device_setting_";
     public static final String KEY_CATEGORY_CPU = "cpu";
     public static final String KEY_GPU_BOOST_AMOUNT = "gpu_boost";
+    public static final String KEY_GPU_THROTTLING_SWITCH = "gpu_throttling";
 
+    private static TwoStatePreference mGPUThrottlingModeSwitch;
     private AdrenoGPUBoostPreference mGPUBoostAmount;
     private static TwoStatePreference mHBMModeSwitch;
     private static TwoStatePreference mAutoHBMSwitch;
@@ -200,6 +202,14 @@ public class DeviceSettings extends PreferenceFragment
             }
         else {
            findPreference(KEY_GPU_BOOST_AMOUNT).setVisible(false);
+        }
+
+        // GPU Throttling
+            mGPUThrottlingModeSwitch = (TwoStatePreference) findPreference(KEY_GPU_THROTTLING_SWITCH);
+            mGPUThrottlingModeSwitch.setOnPreferenceChangeListener(new GPUThrottlingModeSwitch());
+        }
+        else {
+           findPreference(KEY_GPU_THROTTLING_SWITCH).setVisible(false);
         }
 
 }

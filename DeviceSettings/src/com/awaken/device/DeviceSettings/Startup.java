@@ -55,6 +55,10 @@ public class Startup extends BroadcastReceiver {
         mHBM = false;
         restore(DCModeSwitch.getFile(), enabled);
                }
+        enabled = sharedPrefs.getBoolean(DeviceExtras.KEY_GPU_THROTTLING_SWITCH, false);
+        if (enabled) {
+            restore(GPUThrottlingModeSwitch.getFile(context), enabled);
+               }
         enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_FPS_INFO, false);
         if (enabled) {
             context.startService(new Intent(context, FPSInfoService.class));

@@ -1,2 +1,5 @@
 # Kcal
 type kcal_dev, sysfs_type, fs_type;
+
+# Adreno GPU Throttling
+type sysfs_kgsl_throttling, sysfs_type, fs_type;

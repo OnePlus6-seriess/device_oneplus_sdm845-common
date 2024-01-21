@@ -142,6 +142,10 @@
             android:key="gpu_boost"
             android:title="@string/gpu_boost_title"
             android:summary="@string/gpu_boost_summary" />
+        <SwitchPreference
+            android:key="gpu_throttling"
+            android:title="@string/gpu_throttling_title"
+            android:summary="@string/gpu_throttling_summary" />
     </PreferenceCategory>
 
     <PreferenceCategory

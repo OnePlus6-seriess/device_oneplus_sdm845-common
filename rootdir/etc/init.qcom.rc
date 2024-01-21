@@ -113,6 +113,13 @@ on early-boot
     chmod 0664 /mnt/vendor/persist/data/pfm/licenses/store_4
 
 on boot
+    # Adreno GPU Throttling
+    ## Step 1 - Assert dominance
+    write /sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/throttling 0
+
+    chown system graphics /sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/throttling
+    chmod 0660 /sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/throttling
+
     chown bluetooth bluetooth /sys/module/bluetooth_power/parameters/power
     chown bluetooth net_bt /sys/class/rfkill/rfkill0/type
     chown bluetooth net_bt /sys/class/rfkill/rfkill0/state
