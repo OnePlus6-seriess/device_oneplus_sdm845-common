@@ -68,6 +68,7 @@ public class DeviceSettings extends PreferenceFragment
     public static final String KEY_DC_SWITCH = "dc";
     public static final String KEY_DCI_SWITCH = "dci";
     public static final String KEY_WIDE_SWITCH = "wide";
+    public static final String KEY_OTG_SWITCH = "otg";
 
     public static final String KEY_FPS_INFO = "fps_info";
 
@@ -94,6 +95,7 @@ public class DeviceSettings extends PreferenceFragment
     private static TwoStatePreference mHBMModeSwitch;
     private static TwoStatePreference mAutoHBMSwitch;
     private static TwoStatePreference mDCModeSwitch;
+    private static TwoStatePreference mOTGModeSwitch;
     private ListPreference mTopKeyPref;
     private ListPreference mMiddleKeyPref;
     private ListPreference mBottomKeyPref;
@@ -155,6 +157,11 @@ public class DeviceSettings extends PreferenceFragment
         mDCModeSwitch.setEnabled(DCModeSwitch.isSupported());
         mDCModeSwitch.setChecked(DCModeSwitch.isCurrentlyEnabled(this.getContext()));
         mDCModeSwitch.setOnPreferenceChangeListener(new DCModeSwitch());
+
+        mOTGModeSwitch = (TwoStatePreference) findPreference(KEY_OTG_SWITCH);
+        mOTGModeSwitch.setEnabled(OTGModeSwitch.isSupported());
+        mOTGModeSwitch.setChecked(OTGModeSwitch.isCurrentlyEnabled(this.getContext()));
+        mOTGModeSwitch.setOnPreferenceChangeListener(new OTGModeSwitch());
 
         mFpsInfo = (SwitchPreference) findPreference(KEY_FPS_INFO);
         mFpsInfo.setChecked(prefs.getBoolean(KEY_FPS_INFO, false));

@@ -123,4 +123,10 @@
     <string name="vib_call_strength_summary_head">Define the strength of the vibrator during an incoming call</string>
     <string name="vib_notif_strength_title_head">Notification Strength</string>
     <string name="vib_notif_strength_summary_head">Define the strength of the vibrator during an incoming notification</string>
+
+    <!-- OTG -->
+    <string name="misc_title">Misc settings</string>
+    <string name="otg_mode_summary">Enable USB-OTG power supply for external headphones and flash drives</string>
+    <string name="otg_mode_title">Enable USB-OTG</string>
+    <string name="tile_otg_mode">Enable USB-OTG</string>
 </resources>

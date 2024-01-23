@@ -226,5 +226,18 @@
                 <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />
             </intent-filter>
         </provider>
+
+        <!-- OTG -->
+        <service
+            android:name="com.awaken.device.DeviceSettings.OtgToggleService"
+            android:icon="@drawable/ic_otg_tile"
+            android:label="@string/tile_otg_mode"
+            android:exported="false"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action
+                    android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
     </application>
 </manifest>

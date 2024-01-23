@@ -218,4 +218,14 @@
             android:title="@string/vib_notif_strength_title_head"
             android:summary="@string/vib_notif_strength_summary_head" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="misc"
+        android:title="@string/misc_title">
+
+        <SwitchPreference
+            android:key="otg"
+            android:summary="@string/otg_mode_summary"
+            android:title="@string/otg_mode_title" />
+    </PreferenceCategory>
 </PreferenceScreen>

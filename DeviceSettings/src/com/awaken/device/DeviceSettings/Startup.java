@@ -76,6 +76,11 @@ public class Startup extends BroadcastReceiver {
         mHBM = false;
         restore(DCModeSwitch.getFile(), enabled);
                }
+        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_OTG_SWITCH, false);
+        if (enabled) {
+        mHBM = false;
+        restore(OTGModeSwitch.getFile(), enabled);
+               }
         enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_DCI_SWITCH, false);
         if (enabled) {
         mHBM = false;
