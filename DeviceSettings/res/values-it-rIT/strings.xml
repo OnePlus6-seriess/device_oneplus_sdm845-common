@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2017 The OmniROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_title">Extra Dispositivo</string>
+    <string name="device_summary">Regola impostazioni specifiche del dispositivo</string>
+    <!-- Audio -->
+    <string name="audio_title">Audio</string>
+    <string name="clear_speaker_title">Pulisci altoparlante</string>
+    <string name="clear_speaker_summary">Riproduci un audio di 30 secondi per ripulire l\'altoparlante</string>
+    <string name="clear_speaker_description">Esegui questa funzione una o due volte se riscontri che il tuo altoparlante è leggermente bloccato dalla polvere. Imposta il volume multimediale al massimo.\n\nSe l\'altoparlante è fortemente bloccato, esegui questa funzione 2-5 volte mentre agiti il dispositivo con l\'altoparlante rivolto verso il basso.</string>
+    <string name="earpiece_gain">Aumento auricolari (Chiamate)</string>
+    <string name="microphone_gain">Aumento microfono</string>
+    <!-- Display modes -->
+    <string name="display_title">Modalità display</string>
+    <string name="display_summary">Regola impostazioni e preferenze per il display</string>
+    <string name="srgb_mode_summary"></string>
+    <string name="srgb_mode_title">Modalità sRGB</string>
+    <string name="hbm_mode_summary"></string>
+    <string name="hbm_mode_title">Modalità alta luminosità</string>
+    <string name="auto_hbm_summary"></string>
+    <string name="auto_hbm_title">Modalità alta luminosità automatica</string>
+    <string name="auto_hbm_threshold_title">Soglia automatica modalità alta luminosità (lux)</string>
+    <string name="auto_hbm_threshold_summary"></string>
+    <string name="dc_mode_summary"></string>
+    <string name="dc_mode_title">DC-Dimming</string>
+    <string name="dci_mode_summary"></string>
+    <string name="dci_mode_title">Gamma colori DCI-P3</string>
+    <string name="wide_mode_summary"></string>
+    <string name="wide_mode_title">Modalità colore ampio</string>
+    <string name="panel_category_title">Modalità pannello</string>
+    <string name="panel_category_summary">Modalità di correzione del colore pannello</string>
+    <string name="off_mode_title">Disattivato</string>
+    <string name="tile_panel_mode">Modalità pannello</string>
+    <string name="tile_hbm_mode">Modalità alta luminosità</string>
+    <string name="tile_dc_mode">DC-Dimming</string>
+    <!-- Doze -->
+    <string name="doze_panel_title">Doze</string>
+    <string name="ambient_display_gestures_title">Gesti Ambient Display</string>
+    <string name="ambient_display_gestures_summary">Gesti aggiuntivi per riattivare lo schermo</string>
+    <string name="doze_settings_help_title">Aiuto</string>
+    <string name="doze_settings_help_text">Queste funzionalità utilizzano gli eventi del sensore per lanciare un impulso di notifica doze. Il sensore scelto è abilitato solo quando il dispositivo riceve una notifica, questo aiuta a ridurre l\'utilizzo della batteria. C\'è anche un\'opzione per abilitare il sensore scelto non appena lo schermo si spegne, questo causerà un maggiore utilizzo della batteria.</string>
+    <string name="dialog_ok">OK</string>
+    <string name="switch_bar_off">Disattivato</string>
+    <string name="switch_bar_on">Attivato</string>
+    <string name="ambient_display_title">Ambient display</string>
+    <string name="ambient_display_always_on_title">Sempre acceso</string>
+    <string name="ambient_display_always_on_summary">Mostra ora, icone di notifica e altre informazioni. Maggiore utilizzo della batteria.</string>
+    <string name="pickup_sensor_title">Sensore di sollevamento</string>
+    <string name="pick_up_gesture_title">Raccolta</string>
+    <string name="pick_up_gesture_summary">Notifiche lampeggianti alla raccolta</string>
+    <string name="raise_to_wake_gesture_title">Alza per riattivare</string>
+    <string name="raise_to_wake_gesture_summary">Risveglia il dispositivo invece di ricevere notifiche pulsanti</string>
+    <string name="proximity_sensor_title">Sensore di prossimità</string>
+    <string name="pocket_gesture_title">Tasca</string>
+    <string name="pocket_gesture_summary">Notifiche lampeggianti alla rimozione dalla tasca</string>
+    <!-- FPS info -->
+    <string name="fps_title">FPS Misurati</string>
+    <string name="fps_info_title">FPS a schermo</string>
+    <string name="fps_info_summary">Mostra sovrapposizione con i fotogrammi attuali al secondo</string>
+    <!-- TouchScreen gestures -->
+    <string name="screen_gestures_panel_title">Gesti</string>
+    <string name="touchscreen_gesture_settings_title">Gesti touchscreen</string>
+    <string name="touchscreen_gesture_settings_summary">Esegui vari gesti touchscreen per azioni rapide</string>
+    <!-- Notification slider -->
+    <string name="notification_slider_title">Cursore notifiche</string>
+    <string name="notification_slider_selection_dialog_title">Azione</string>
+    <string name="notification_slider_top_position">In alto</string>
+    <string name="notification_slider_middle_position">Al centro</string>
+    <string name="notification_slider_bottom_position">In basso</string>
+    <string name="notification_slider_mode_total_silence">Silenzio totale</string>
+    <string name="notification_slider_mode_alarms_only">Solo sveglie</string>
+    <string name="notification_slider_mode_priority_only">Solo priorità</string>
+    <string name="notification_slider_mode_silent">Silenzioso</string>
+    <string name="notification_slider_mode_vibrate">Vibrazione</string>
+    <string name="notification_slider_mode_none">Normale</string>
+    <string name="buttons_dashboard_summary">Impostazioni cursore notifiche</string>
+    <!-- Selinux Switch -->
+    <string name="selinux_title">SELinux</string>
+    <string name="selinux_explanation_summary">SELinux è un insieme di modifiche del kernel e strumenti di spazio utente. Cambiare le modalità può causare effetti indesiderati. Utilizzare a proprio rischio (sarà grigio se SU non trovato!).</string>
+    <string name="selinux_mode_title">Modalità SELinux</string>
+    <string name="selinux_permissive_summary">Permissivo</string>
+    <string name="selinux_enforcing_summary">Enforcing</string>
+    <string name="selinux_persistence_title">Persiste tra i riavvii</string>
+    <string name="selinux_persistence_summary">Ripristina la modalità sepolicy sopra impostata ad ogni avvio</string>
+    <string name="selinux_permissive_toast_title">Selinux impostato su permissivo!</string>
+    <string name="selinux_enforcing_toast_title">Selinux impostato su enforcing!</string>
+    <string name="cannot_get_su">Azione fallita a causa del mancato accesso al superuser</string>
+    <!-- Thermal profiles -->
+    <string name="thermal_title">Termico</string>
+    <string name="thermal_profiles_title">Profili termici</string>
+    <string name="thermal_summary">Regola i profili termici per app per prestazioni ottimali</string>
+    <string name="thermal_default">Predefinito</string>
+    <string name="thermal_benchmark">Benchmark</string>
+    <string name="thermal_browser">Browser</string>
+    <string name="thermal_camera">Fotocamera</string>
+    <string name="thermal_dialer">Dialer</string>
+    <string name="thermal_gaming">Gioco</string>
+    <string name="thermal_streaming">Streaming</string>
+    <!-- Vibration control -->
+    <string name="vibrator_title">Vibrazione</string>
+    <string name="vib_strength_title_head">Intensità di sistema</string>
+    <string name="vib_strength_summary_head">Definisci la forza della vibrazione</string>
+    <string name="vib_call_strength_title_head">Intensità su chiamata</string>
+    <string name="vib_call_strength_summary_head">Definisci l\'intensità della vibrazione durante una chiamata in arrivo</string>
+    <string name="vib_notif_strength_title_head">Intensità su notifica</string>
+    <string name="vib_notif_strength_summary_head">Definire l\'intensità della vibrazioe durante una notifica in arrivo</string>
+</resources>

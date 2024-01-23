@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2017 The OmniROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_title">إضافات الجهاز</string>
+    <string name="device_summary">ضبط إعدادات الجهاز المحددة</string>
+    <!-- Audio -->
+    <string name="audio_title">الصوت</string>
+    <string name="clear_speaker_title">مسح مكبر الصوت</string>
+    <string name="clear_speaker_summary">تشغيل صوت 30 ثانية لمسح مكبر الصوت</string>
+    <string name="clear_speaker_description">قم بتشغيل هذه الميزة مرة أو مرتين إذا وجدت أن مكبر الصوت الخاص بك محظور بشكل طفيف بواسطة الغبار. قم بتعيين مستوى صوت الوسائط إلى الحد الأقصى.\n\nإذا تم حظر مكبر الصوت بشكل مكثف، قم بتشغيل هذه الميزة 2-5 مرات أثناء هز جهازك مع مكبر الصوت في اتجاه الأسفل.</string>
+    <string name="earpiece_gain">كسب الارض (المجموعات)</string>
+    <string name="microphone_gain">مكسب الميكروفون</string>
+    <!-- Display modes -->
+    <string name="display_title">أوضاع العرض</string>
+    <string name="display_summary">ضبط الإعدادات والتفضيلات للعرض</string>
+    <string name="srgb_mode_summary"></string>
+    <string name="srgb_mode_title">وضع sRGB</string>
+    <string name="hbm_mode_summary"></string>
+    <string name="hbm_mode_title">وضع السطوع العالي</string>
+    <string name="auto_hbm_summary"></string>
+    <string name="auto_hbm_title">وضع السطوع العالي التلقائي</string>
+    <string name="auto_hbm_threshold_title">عتبة وضع السطوع العالي التلقائي (لوكس)</string>
+    <string name="auto_hbm_threshold_summary"></string>
+    <string name="dc_mode_summary"></string>
+    <string name="dc_mode_title">DC-Dimming</string>
+    <string name="dci_mode_summary"></string>
+    <string name="dci_mode_title">وضع ألوان غامبوت الموسعة DCI-P3</string>
+    <string name="wide_mode_summary"></string>
+    <string name="wide_mode_title">وضع الألوان الواسع</string>
+    <string name="panel_category_title">أوضاع اللوحات</string>
+    <string name="panel_category_summary">أوضاع تصحيح لون اللوحة</string>
+    <string name="off_mode_title">متوقف</string>
+    <string name="tile_panel_mode">أوضاع اللوحات</string>
+    <string name="tile_hbm_mode">وضع السطوع العالي</string>
+    <string name="tile_dc_mode">DC-Dimming</string>
+    <!-- Doze -->
+    <string name="doze_panel_title">غموض</string>
+    <string name="ambient_display_gestures_title">إيماءات العرض المحيطي</string>
+    <string name="ambient_display_gestures_summary">إيماءات إضافية لإيقاظ الشاشة</string>
+    <string name="doze_settings_help_title">مساعدة</string>
+    <string name="doze_settings_help_text">تستخدم هذه الميزات أحداث استشعار لتشغيل نبض تنبيه. يتم تمكين المستشعر المختار فقط عندما يتلقى الجهاز إشعار، وهذا يساعد على تقليل استخدام البطارية. هناك أيضًا خيار لتمكين المستشعر المختار بمجرد إيقاف تشغيل الشاشة، سيؤدي هذا إلى زيادة استخدام البطارية.</string>
+    <string name="dialog_ok">حسناً</string>
+    <string name="switch_bar_off">متوقف</string>
+    <string name="switch_bar_on">تشغيل</string>
+    <string name="ambient_display_title">عرض المحيط</string>
+    <string name="ambient_display_always_on_title">دائماً مفعل</string>
+    <string name="ambient_display_always_on_summary">إظهار الوقت، أيقونات الإشعار، ومعلومات أخرى. زيادة استخدام البطارية.</string>
+    <string name="pickup_sensor_title">مستشعر التقاط</string>
+    <string name="pick_up_gesture_title">التقاط</string>
+    <string name="pick_up_gesture_summary">التنبيهات النبضية عند الالتقاط</string>
+    <string name="raise_to_wake_gesture_title">ارفع إلى إيقاظ</string>
+    <string name="raise_to_wake_gesture_summary">إيقاظ الجهاز بدلاً من إشعار النبض</string>
+    <string name="proximity_sensor_title">مستشعر القرب</string>
+    <string name="pocket_gesture_title">الجيب</string>
+    <string name="pocket_gesture_summary">التنبيهات النبضية عند الإزالة من الجيب</string>
+    <!-- FPS info -->
+    <string name="fps_title">FPS مقيسة</string>
+    <string name="fps_info_title">FPS overlay</string>
+    <string name="fps_info_summary">إظهار تراكب مع الأطر الحالية في الثانية</string>
+    <!-- TouchScreen gestures -->
+    <string name="screen_gestures_panel_title">إيماءات</string>
+    <string name="touchscreen_gesture_settings_title">إيماءات الشاشة</string>
+    <string name="touchscreen_gesture_settings_summary">قم بتشغيل إيماءات مختلفة على شاشة اللمس لاتخاذ إجراءات سريعة</string>
+    <!-- Notification slider -->
+    <string name="notification_slider_title">شريط تمرير الإشعارات</string>
+    <string name="notification_slider_selection_dialog_title">اجراء</string>
+    <string name="notification_slider_top_position">الموضع العلوي</string>
+    <string name="notification_slider_middle_position">الموضع الأوسط</string>
+    <string name="notification_slider_bottom_position">الموضع السفلي</string>
+    <string name="notification_slider_mode_total_silence">صمت تام</string>
+    <string name="notification_slider_mode_alarms_only">التنبيهات فقط</string>
+    <string name="notification_slider_mode_priority_only">الأولوية فقط</string>
+    <string name="notification_slider_mode_silent">صامت</string>
+    <string name="notification_slider_mode_vibrate">اهتزاز</string>
+    <string name="notification_slider_mode_none">عادي</string>
+    <string name="buttons_dashboard_summary">إعدادات شريط التنبيه</string>
+    <!-- Selinux Switch -->
+    <string name="selinux_title">SELinux</string>
+    <string name="selinux_explanation_summary">SELinux عبارة عن مجموعة من تعديلات النواة وأدوات الفضاء للمستخدمين. تغيير الأوضاع يمكن أن يسبب تأثيرات غير مرغوب فيها. الاستخدام على مسؤوليتك الخاصة (سيتم رماده إذا لم يتم العثور على su!).</string>
+    <string name="selinux_mode_title">وضع SELinux</string>
+    <string name="selinux_permissive_summary">مسموح</string>
+    <string name="selinux_enforcing_summary">إنفاذ</string>
+    <string name="selinux_persistence_title">الإستمرار عبر عمليات إعادة التشغيل</string>
+    <string name="selinux_persistence_summary">استعادة وضع تعيين السياسة في الأعلى على كل تشغيل</string>
+    <string name="selinux_permissive_toast_title">تم تعيين Selinux إلى مسموح!</string>
+    <string name="selinux_enforcing_toast_title">تم تعيين Selinux للإنفاذ!</string>
+    <string name="cannot_get_su">فشل الإجراء بسبب عدم الوصول إلى المستخدم المتميز</string>
+    <!-- Thermal profiles -->
+    <string name="thermal_title">حرارية</string>
+    <string name="thermal_profiles_title">الملامح الحرارية</string>
+    <string name="thermal_summary">ضبط الملفات الشخصية الحرارية لكل تطبيق لتحقيق الأداء الأمثل</string>
+    <string name="thermal_default">الافتراضي</string>
+    <string name="thermal_benchmark">المعيار</string>
+    <string name="thermal_browser">المتصفح</string>
+    <string name="thermal_camera">الكاميرا</string>
+    <string name="thermal_dialer">الاتصال</string>
+    <string name="thermal_gaming">ألعاب</string>
+    <string name="thermal_streaming">البث</string>
+    <!-- Vibration control -->
+    <string name="vibrator_title">اهتزاز</string>
+    <string name="vib_strength_title_head">قوة النظام</string>
+    <string name="vib_strength_summary_head">تحديد قوة الاهتزاز</string>
+    <string name="vib_call_strength_title_head">قوة المكالمة</string>
+    <string name="vib_call_strength_summary_head">تحديد قوة الاهتزاز أثناء مكالمة واردة</string>
+    <string name="vib_notif_strength_title_head">قوة الإشعارات</string>
+    <string name="vib_notif_strength_summary_head">تحديد قوة الاهتزاز أثناء مكالمة واردة</string>
+</resources>

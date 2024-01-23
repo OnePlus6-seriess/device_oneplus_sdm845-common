@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2017 The OmniROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_title">डिवाइस अतिरिक्त</string>
+    <string name="device_summary">डिवाइस विशिष्ट समायोजित करें</string>
+    <!-- Audio -->
+    <string name="audio_title">श्रव्य</string>
+    <string name="clear_speaker_title">स्पीकर का क्लियरिंग</string>
+    <string name="clear_speaker_summary">स्पीकर को साफ़ करने के लिए 30 सेकंड का ऑडियो चलाएं</string>
+    <string name="clear_speaker_description">इस सुविधा को एक या दो बार चलाएं यदि आप पाते हैं कि आपका स्पीकर धूल से हल्का अवरुद्ध है। मीडिया वॉल्यूम को अधिकतम पर सेट करें। \n\n यदि स्पीकर को बहुत अधिक अवरुद्ध किया गया है, तो अपने डिवाइस को नीचे की ओर स्पीकर के साथ हिलाते हुए इस सुविधा को 2-5 बार चलाएं</string>
+    <string name="earpiece_gain">ईयरपीस गेन (कॉल)</string>
+    <string name="microphone_gain">माइक्रोफोन का लाभ</string>
+    <!-- Display modes -->
+    <string name="display_title">प्रदर्शन मोड</string>
+    <string name="display_summary">प्रदर्शन के लिए सेटिंग्स और वरीयताओं को समायोजित करें</string>
+    <string name="srgb_mode_summary"></string>
+    <string name="srgb_mode_title">sRGB मोड</string>
+    <string name="hbm_mode_summary"></string>
+    <string name="hbm_mode_title">उच्च चमक मोड</string>
+    <string name="auto_hbm_summary"></string>
+    <string name="auto_hbm_title">स्वचालित उच्च चमक मोड</string>
+    <string name="auto_hbm_threshold_title">स्वचालित उच्च चमक मोड सीमा (लक्स)</string>
+    <string name="auto_hbm_threshold_summary"></string>
+    <string name="dc_mode_summary"></string>
+    <string name="dc_mode_title">डीसी धुंधली</string>
+    <string name="dci_mode_summary"></string>
+    <string name="dci_mode_title">DCI-P3 चौड़ा रंग सरगम ​​मोड</string>
+    <string name="wide_mode_summary"></string>
+    <string name="wide_mode_title">वाइड रंग मोड</string>
+    <string name="panel_category_title">पैनल मोड</string>
+    <string name="panel_category_summary">पैनल रंग सुधार के लिए मोड</string>
+    <string name="off_mode_title">बंद</string>
+    <string name="tile_panel_mode">पैनल मोड</string>
+    <string name="tile_hbm_mode">उच्च चमक मोड</string>
+    <string name="tile_dc_mode">डीसी धुंधली</string>
+    <!-- Doze -->
+    <string name="doze_panel_title">Doze</string>
+    <string name="ambient_display_gestures_title">परिवेश प्रदर्शन इशारों</string>
+    <string name="ambient_display_gestures_summary">स्क्रीन को जगाने के लिए अतिरिक्त इशारे</string>
+    <string name="doze_settings_help_title">मदद</string>
+    <string name="doze_settings_help_text">ये फीचर डोज नोटिफिकेशन पल्स लॉन्च करने के लिए सेंसर इवेंट का उपयोग करते हैं। चुना हुआ सेंसर केवल तभी सक्षम होता है जब डिवाइस को सूचना मिलती है, इससे बैटरी के उपयोग को कम करने में मदद मिलती है। स्क्रीन को बंद करने के साथ ही चुने हुए सेंसर को सक्षम करने का विकल्प भी है, इससे बैटरी का उपयोग अधिक होगा।</string>
+    <string name="dialog_ok">ठीक है</string>
+    <string name="switch_bar_off">बंद</string>
+    <string name="switch_bar_on">चालू</string>
+    <string name="ambient_display_title">परिवेश प्रदर्शन</string>
+    <string name="ambient_display_always_on_title">हमेशा बने रहें</string>
+    <string name="ambient_display_always_on_summary">समय, अधिसूचना आइकन और अन्य जानकारी दिखाएं। बैटरी का उपयोग बढ़ा।</string>
+    <string name="pickup_sensor_title">पिक सेंसर</string>
+    <string name="pick_up_gesture_title">उठाना</string>
+    <string name="pick_up_gesture_summary">पिक-अप पर पल्स नोटिफिकेशन</string>
+    <string name="raise_to_wake_gesture_title">उठने के लिए</string>
+    <string name="raise_to_wake_gesture_summary">डिवाइस को पल्सिंग नोटिफिकेशन के बजाय जागो</string>
+    <string name="proximity_sensor_title">मौजूदगी पता लगाने वाला सेंसर</string>
+    <string name="pocket_gesture_title">जेब</string>
+    <string name="pocket_gesture_summary">जेब से निकालने पर पल्स नोटिफिकेशन</string>
+    <!-- FPS info -->
+    <string name="fps_title">मापा एफपीएस</string>
+    <string name="fps_info_title">एफपीएस ओवरले</string>
+    <string name="fps_info_summary">वर्तमान फ्रेम प्रति सेकंड के साथ ओवरले दिखाएं</string>
+    <!-- TouchScreen gestures -->
+    <string name="screen_gestures_panel_title">इशारों</string>
+    <string name="touchscreen_gesture_settings_title">टचस्क्रीन इशारे</string>
+    <string name="touchscreen_gesture_settings_summary">त्वरित कार्यों के लिए विभिन्न टचस्क्रीन इशारों का प्रदर्शन करें</string>
+    <!-- Notification slider -->
+    <string name="notification_slider_title">अधिसूचना स्लाइडर</string>
+    <string name="notification_slider_selection_dialog_title">कार्य</string>
+    <string name="notification_slider_top_position">शीर्ष स्थिति</string>
+    <string name="notification_slider_middle_position">मध्य स्थिति</string>
+    <string name="notification_slider_bottom_position">नीचे स्थिति</string>
+    <string name="notification_slider_mode_total_silence">कुल मौन</string>
+    <string name="notification_slider_mode_alarms_only">केवल अलार्म</string>
+    <string name="notification_slider_mode_priority_only">केवल प्राथमिकता</string>
+    <string name="notification_slider_mode_silent">मूक</string>
+    <string name="notification_slider_mode_vibrate">कांपना</string>
+    <string name="notification_slider_mode_none">साधारण</string>
+    <string name="buttons_dashboard_summary">अलर्ट स्लाइडर सेटिंग्स</string>
+    <!-- Selinux Switch -->
+    <string name="selinux_title">SELinux</string>
+    <string name="selinux_explanation_summary">SELinux कर्नेल संशोधनों और उपयोगकर्ता-स्पेस टूल्स का एक सेट है। बदलते तरीके अवांछित प्रभाव पैदा कर सकते हैं। अपने जोखिम पर उपयोग करें (यदि सु नहीं पाया गया तो ग्रे हो जाएगा!)।</string>
+    <string name="selinux_mode_title">SELinux मोड</string>
+    <string name="selinux_permissive_summary">अनुमोदक</string>
+    <string name="selinux_enforcing_summary">लागू करने</string>
+    <string name="selinux_persistence_title">रिबूट के पार रहें</string>
+    <string name="selinux_persistence_summary">प्रत्येक बूट पर उपरोक्त सेट sepolicy मोड को पुनर्स्थापित करें</string>
+    <string name="selinux_permissive_toast_title">सेलिनक्स ने अनुमेय सेट किया!</string>
+    <string name="selinux_enforcing_toast_title">Selinux से enforcing किया</string>
+    <string name="cannot_get_su">सुपरसुसर के लापता होने के कारण कार्रवाई विफल रही</string>
+    <!-- Thermal profiles -->
+    <string name="thermal_title">थर्मल</string>
+    <string name="thermal_profiles_title">थर्मल प्रोफाइल</string>
+    <string name="thermal_summary">इष्टतम प्रदर्शन के लिए प्रति-ऐप थर्मल प्रोफाइल समायोजित करें</string>
+    <string name="thermal_default">चूक</string>
+    <string name="thermal_benchmark">बेंचमार्क</string>
+    <string name="thermal_browser">ब्राउज़र</string>
+    <string name="thermal_camera">कैमरा</string>
+    <string name="thermal_dialer">डायलर</string>
+    <string name="thermal_gaming">Gaming</string>
+    <string name="thermal_streaming">स्ट्रीमिंग</string>
+    <!-- Vibration control -->
+    <string name="vibrator_title">कांपना</string>
+    <string name="vib_strength_title_head">सिस्टम की ताकत</string>
+    <string name="vib_strength_summary_head">वाइब्रेटर की ताकत को परिभाषित करें</string>
+    <string name="vib_call_strength_title_head">बुलाने की ताकत</string>
+    <string name="vib_call_strength_summary_head">इनकमिंग कॉल के दौरान वाइब्रेटर की ताकत को परिभाषित करें</string>
+    <string name="vib_notif_strength_title_head">अधिसूचना शक्ति</string>
+    <string name="vib_notif_strength_summary_head">एक आने वाली अधिसूचना के दौरान वाइब्रेटर की ताकत को परिभाषित करें</string>
+</resources>

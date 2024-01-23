@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2017 The OmniROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_title">Geräte Extras</string>
+    <string name="device_summary">Geräte spezifische Einstellungen anpassen</string>
+    <!-- Audio -->
+    <string name="audio_title">Ton</string>
+    <string name="clear_speaker_title">Lautsprecher reinigen</string>
+    <string name="clear_speaker_summary">Spiele ein 30 Sekunden Ton um den Lautsprecher zu reinigen</string>
+    <string name="clear_speaker_description">Wenn Ihr Lautsprecher leicht durch Staub blockiert ist, führen Sie diese Funktion ein- oder zweimal aus. Stellen Sie die Medienlautstärke auf Maximum ein. \n\nWenn der Lautsprecher stark blockiert ist, führen Sie diese Funktion 2-5 Mal aus, während Sie Ihr Gerät mit dem Lautsprecher nach unten gerichtet schütteln.</string>
+    <string name="earpiece_gain">Hörerverstärkung (Anrufe)</string>
+    <string name="microphone_gain">Mikrofonverstärkung</string>
+    <!-- Display modes -->
+    <string name="display_title">Bildschirm Modi</string>
+    <string name="display_summary">Einstellungen und Eigenschaften für den Bildschirm anpassen</string>
+    <string name="srgb_mode_summary"></string>
+    <string name="srgb_mode_title">sRGB Mudus</string>
+    <string name="hbm_mode_summary"></string>
+    <string name="hbm_mode_title">Hohe Helligkeit Modus</string>
+    <string name="auto_hbm_summary"></string>
+    <string name="auto_hbm_title">Automatischer Hohe Helligkeits Modus</string>
+    <string name="auto_hbm_threshold_title">Automatischer Höchsthelligkeits-Modus Schwellenwert (Lux)</string>
+    <string name="auto_hbm_threshold_summary"></string>
+    <string name="dc_mode_summary"></string>
+    <string name="dc_mode_title">DC-Dimmen</string>
+    <string name="dci_mode_summary"></string>
+    <string name="dci_mode_title">DCI-P3 breiter Farbbereich Modus</string>
+    <string name="wide_mode_summary"></string>
+    <string name="wide_mode_title">Breite Farbbereichmodus</string>
+    <string name="panel_category_title">Panel-Modi</string>
+    <string name="panel_category_summary">Modi für die Farbkorrektur des Panels</string>
+    <string name="off_mode_title">Aus</string>
+    <string name="tile_panel_mode">Panel-Modi</string>
+    <string name="tile_hbm_mode">Hohe Helligkeit Modus</string>
+    <string name="tile_dc_mode">DC-Dimmen</string>
+    <!-- Doze -->
+    <string name="doze_panel_title">Schlummern</string>
+    <string name="ambient_display_gestures_title">Inaktivitätsbildschirm-Gesten</string>
+    <string name="ambient_display_gestures_summary">Zusätzliche Gesten zum Wecken des Bildschirms</string>
+    <string name="doze_settings_help_title">Hilfe</string>
+    <string name="doze_settings_help_text">Diese Funktionen verwenden Sensorereignisse, um einen Schlummern-Benachrichtigungsimplus zu starten. Der gewählte Sensor ist nur aktiviert, wenn das Gerät eine Benachrichtigung erhält. Dies hilft den Akkuverbrauch zu reduzieren. Es gibt auch eine Option, den gewählten Sensor zu aktivieren, sobald sich der Bildschirm ausschaltet. Dies führt zu einem höheren Akkuverbrauch.</string>
+    <string name="dialog_ok">OK</string>
+    <string name="switch_bar_off">Aus</string>
+    <string name="switch_bar_on">An</string>
+    <string name="ambient_display_title">Inaktivitätsbildschirm</string>
+    <string name="ambient_display_always_on_title">Immer an</string>
+    <string name="ambient_display_always_on_summary">Uhrzeit, Benachrichtigungssymbole und andere Informationen anzeigen. Erhöhter Akkuverbrauch.</string>
+    <string name="pickup_sensor_title">Abholsensor</string>
+    <string name="pick_up_gesture_title">Aufheben</string>
+    <string name="pick_up_gesture_summary">Pulsbenachrichtigungen bei Aufhebung</string>
+    <string name="raise_to_wake_gesture_title">Zum Wecken heben</string>
+    <string name="raise_to_wake_gesture_summary">Wecken Sie das Gerät auf, anstatt die Benachrichtigung zu pulsieren</string>
+    <string name="proximity_sensor_title">Näherungssensor</string>
+    <string name="pocket_gesture_title">Tasche</string>
+    <string name="pocket_gesture_summary">Pulsbenachrichtigung beim Nehmen aus der Tasche</string>
+    <!-- FPS info -->
+    <string name="fps_title">Gemessene FPS</string>
+    <string name="fps_info_title">FPS overlay</string>
+    <string name="fps_info_summary">Overlay mit aktuellen Frames pro Sekunde anzeigen</string>
+    <!-- TouchScreen gestures -->
+    <string name="screen_gestures_panel_title">Gesten</string>
+    <string name="touchscreen_gesture_settings_title">Touchscreen-Gesten</string>
+    <string name="touchscreen_gesture_settings_summary">Verschiedene Touchscreen-Gesten für schnelle Aktionen ausführen</string>
+    <!-- Notification slider -->
+    <string name="notification_slider_title">Benachrichtigungs-Schieber</string>
+    <string name="notification_slider_selection_dialog_title">Aktion</string>
+    <string name="notification_slider_top_position">Obere Position</string>
+    <string name="notification_slider_middle_position">Mittlere Position</string>
+    <string name="notification_slider_bottom_position">Untere Position</string>
+    <string name="notification_slider_mode_total_silence">Totale Stille</string>
+    <string name="notification_slider_mode_alarms_only">Nur Wecker</string>
+    <string name="notification_slider_mode_priority_only">Nur Prioritäten</string>
+    <string name="notification_slider_mode_silent">Stumm</string>
+    <string name="notification_slider_mode_vibrate">Vibrieren</string>
+    <string name="notification_slider_mode_none">Normal</string>
+    <string name="buttons_dashboard_summary">Alert Slider-Einstellungen</string>
+    <!-- Selinux Switch -->
+    <string name="selinux_title">SELinux</string>
+    <string name="selinux_explanation_summary">SELinux ist eine Gruppe von Kernel-Modifikationen und User-Space-Tools. Das Ändern von Modi kann unerwünschte Effekte verursachen. Benutzung auf eigene Gefahr (wird ausgegraut, wenn su nicht gefunden wird!).</string>
+    <string name="selinux_mode_title">SELinux-Modus</string>
+    <string name="selinux_permissive_summary">Zulässig</string>
+    <string name="selinux_enforcing_summary">Strikt</string>
+    <string name="selinux_persistence_title">Bei Neustart beibehalten</string>
+    <string name="selinux_persistence_summary">Bei jedem Start den oben festgelegten sepolicy-Modus wiederherstellen</string>
+    <string name="selinux_permissive_toast_title">Selinux auf Zulässig eingestellt!</string>
+    <string name="selinux_enforcing_toast_title">Selinux auf Strikt eingestellt!</string>
+    <string name="cannot_get_su">Aktion wegen fehlendem Superuser-Zugriff fehlgeschlagen</string>
+    <!-- Thermal profiles -->
+    <string name="thermal_title">Thermisch</string>
+    <string name="thermal_profiles_title">Thermische Profile</string>
+    <string name="thermal_summary">Passen Sie die thermischen Profile pro App an, um eine optimale Leistung zu erzielen</string>
+    <string name="thermal_default">Standard</string>
+    <string name="thermal_benchmark">Benchmark</string>
+    <string name="thermal_browser">Webbrowser</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_dialer">Telefon</string>
+    <string name="thermal_gaming">Spielen</string>
+    <string name="thermal_streaming">Streaming</string>
+    <!-- Vibration control -->
+    <string name="vibrator_title">Vibrator</string>
+    <string name="vib_strength_title_head">Systemstärke</string>
+    <string name="vib_strength_summary_head">Stärke des Vibrators festlegen</string>
+    <string name="vib_call_strength_title_head">Anrufstärke</string>
+    <string name="vib_call_strength_summary_head">Vibrationsstärke bei eingehenden Anrufen festlegen</string>
+    <string name="vib_notif_strength_title_head">Benachrichtigungstärke</string>
+    <string name="vib_notif_strength_summary_head">Vibrationsstärke während einer eingehenden Benachrichtigung festlegen</string>
+</resources>

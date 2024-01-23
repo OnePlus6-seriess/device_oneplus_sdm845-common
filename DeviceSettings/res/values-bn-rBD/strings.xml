@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2017 The OmniROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_title">Device Extras</string>
+    <string name="device_summary">Adjust device specific settings</string>
+    <!-- Audio -->
+    <string name="audio_title">Audio</string>
+    <string name="clear_speaker_title">Clear speaker</string>
+    <string name="clear_speaker_summary">স্পিকার পরিস্কার করতে ৩০ সেকেন্ড এর শব্দ চালু করুন</string>
+    <string name="clear_speaker_description">এই সেবাটি ১-৩ বার চালু করুন যদি আপনার মনে হয় আপনার স্পিকারে ধুলা জমেছে। ভলিউম সর্বোচ্চ করুন।\n\যদি বেশি ধুলা জমে থাকে সেবাটি চালু করে  দুই থেকে পাঁচ বার স্পিকার নিচের দিকে করে ফোনটিকে ঝাঁকুনি দিন।</string>
+    <string name="earpiece_gain">স্পিকারের ক্ষমতা নিয়ন্ত্রণ (কল)</string>
+    <string name="microphone_gain">মাইক্রোফোনের ক্ষমতা নিয়ন্ত্রণ</string>
+    <!-- Display modes -->
+    <string name="display_title">ডিসপ্লের বিভিন্ন মোড</string>
+    <string name="display_summary">ডিসপ্লের সেটিংস এবং বিভিন্ন দিক নিয়ন্ত্রণ</string>
+    <string name="srgb_mode_summary"></string>
+    <string name="srgb_mode_title">এসআরজিবি মোড</string>
+    <string name="hbm_mode_summary"></string>
+    <string name="hbm_mode_title">সর্বোচ্চ উজ্জলতা</string>
+    <string name="auto_hbm_summary"></string>
+    <string name="auto_hbm_title">স্বয়ংক্রিয় সর্বোচ্চ উজ্জলতা</string>
+    <string name="auto_hbm_threshold_title">কত সীমায় সর্বোচ্চ উজ্জ্বলতা স্বয়ংক্রিয়ভাবে চালু হবে (lux)</string>
+    <string name="auto_hbm_threshold_summary"></string>
+    <string name="dc_mode_summary"></string>
+    <string name="dc_mode_title">ডিসি-ডিমিং (ডিসপ্লে তে আসা কারেন্ট নিয়ন্ত্রণ)</string>
+    <string name="dci_mode_summary"></string>
+    <string name="dci_mode_title">ডিসিআই-পি৩ প্রশস্ত কালার গামুট মোড</string>
+    <string name="wide_mode_summary"></string>
+    <string name="wide_mode_title">প্রশস্ত কালার মোড</string>
+    <string name="panel_category_title">ডিসপ্লের প্যানেল মোডস</string>
+    <string name="panel_category_summary">প্যানেলের কালার সংশোধন মোডস</string>
+    <string name="off_mode_title">বন্ধ</string>
+    <string name="tile_panel_mode">ডিসপ্লের প্যানেল মোডস</string>
+    <string name="tile_hbm_mode">সর্বোচ্চ উজ্জলতা মোড</string>
+    <string name="tile_dc_mode">ডিসি-ডিমিং (ডিসপ্লে তে আসা কারেন্ট নিয়ন্ত্রণ)</string>
+    <!-- Doze -->
+    <string name="doze_panel_title">ডোজ</string>
+    <string name="ambient_display_gestures_title">অ্যাম্বিয়েন্ট ডিসপ্লে জেশ্চারস</string>
+    <string name="ambient_display_gestures_summary">স্ক্রীন চালু করতে অতিরিক্ত জেশ্চারস</string>
+    <string name="doze_settings_help_title">সাহায্য</string>
+    <string name="doze_settings_help_text">এই ফিচারগুলো ডোজ নোটিফিকেশন পালস চালু করতে সেন্সর ব্যবহার করে। চিহ্নিত সেন্সরগুলো শুধুমাত্র নোটিফিকেশন আসলেই চালু হয়, যা ব্যাটারির ব্যবহার কমায়। আরো একটি অপশন আছে যেটি স্ক্রিন বন্ধ হওয়ার সাথে সাথে সেন্সর চালু করে দেয় যা ব্যাটারির ব্যবহার বাড়িয়ে দেয়।</string>
+    <string name="dialog_ok">ওকে</string>
+    <string name="switch_bar_off">বন্ধ</string>
+    <string name="switch_bar_on">চালু</string>
+    <string name="ambient_display_title">এম্বিয়েন্ট ডিসপ্লে</string>
+    <string name="ambient_display_always_on_title">সব সময় চালু</string>
+    <string name="ambient_display_always_on_summary">সময, নোটিফিকেশন আইকন এবং অন্যান্য তথ্য দেখানো।অতিরিক্ত ব্যাটারির ব্যবহার।</string>
+    <string name="pickup_sensor_title">পিকআপ সেন্সর</string>
+    <string name="pick_up_gesture_title">পিক-আপ</string>
+    <string name="pick_up_gesture_summary">পিক-আপের সময় নোটিফিকেশন পালস</string>
+    <string name="raise_to_wake_gesture_title">উঠালে চালু হওয়া</string>
+    <string name="raise_to_wake_gesture_summary">নোটিফিকেশন পালসিং এর বদলে ফোন চালু হওয়া</string>
+    <string name="proximity_sensor_title">প্রক্সিমিটি সেন্সর</string>
+    <string name="pocket_gesture_title">পকেট</string>
+    <string name="pocket_gesture_summary">পকেট থেকে বের করলে নোটিফিকেশন পালস</string>
+    <!-- FPS info -->
+    <string name="fps_title">FPS পরিমাপণ</string>
+    <string name="fps_info_title">FPS overlay</string>
+    <string name="fps_info_summary">ওভারলে দেখানো প্রতি সেকেন্ডে ফ্রেম্সের সাথে</string>
+    <!-- TouchScreen gestures -->
+    <string name="screen_gestures_panel_title">জেশ্চারস</string>
+    <string name="touchscreen_gesture_settings_title">টাচস্ক্রিন জেশ্চারস</string>
+    <string name="touchscreen_gesture_settings_summary">বিভিন্ন দ্রুত সেবার জন্য বিভিন্ন জেশ্চারর্সের ব্যবহার</string>
+    <!-- Notification slider -->
+    <string name="notification_slider_title">নোটিফিকেশন স্লাইডার</string>
+    <string name="notification_slider_selection_dialog_title">কাজ</string>
+    <string name="notification_slider_top_position">সর্বোচ্চ অবস্থান</string>
+    <string name="notification_slider_middle_position">মধ্যম অবস্থান</string>
+    <string name="notification_slider_bottom_position">সর্বনিম্ন অবস্থান</string>
+    <string name="notification_slider_mode_total_silence">সম্পূর্ণ নীরবতা</string>
+    <string name="notification_slider_mode_alarms_only">শুধুমাত্র এলার্ম</string>
+    <string name="notification_slider_mode_priority_only">শুধুমাত্র অগ্রাধিকারিরা</string>
+    <string name="notification_slider_mode_silent">নীরবতা</string>
+    <string name="notification_slider_mode_vibrate">ভাইব্রেট</string>
+    <string name="notification_slider_mode_none">সাধারণ</string>
+    <string name="buttons_dashboard_summary">অ্যালার্ট স্লাইডার সেটিংস</string>
+    <!-- Selinux Switch -->
+    <string name="selinux_title">SELinux</string>
+    <string name="selinux_explanation_summary">SELinux একটি কারনাল মডিফিকেশন টুল। এটির পরিবর্তনে ফোনে ঝামেলা হতে পারে। নিজ ঝুঁকিতে ব্যবহার করুন ( su অনুমতি না পেলে ঘোলাটে দেখাবে )। </string>
+    <string name="selinux_mode_title">SELinux মোড</string>
+    <string name="selinux_permissive_summary">পারমিসিভ</string>
+    <string name="selinux_enforcing_summary">এনফোর্সিং</string>
+    <string name="selinux_persistence_title">পুনঃচালু হওয়ার পরো স্থায়ী থাকা</string>
+    <string name="selinux_persistence_summary">ফোন চালু হওয়ার পর পুনঃপ্রতিস্থাপন</string>
+    <string name="selinux_permissive_toast_title">Selinux পারমিসিভে সেট করুন!</string>
+    <string name="selinux_enforcing_toast_title">Selinux এনফোর্সিং এ সেট করুন!</string>
+    <string name="cannot_get_su">সুপার ইউজার অনুমতি না পাওয়ায় কাজ ব্যর্থ হলো</string>
+    <!-- Thermal profiles -->
+    <string name="thermal_title">থার্মাল</string>
+    <string name="thermal_profiles_title">থার্মাল প্রোফাইলস</string>
+    <string name="thermal_summary">প্রতি অ্যাপের সর্বোত্তম কর্মক্ষমতা পাওয়ার জন্য থার্মাল প্রোফাইল নির্বাচন করুন</string>
+    <string name="thermal_default">সাধারণ</string>
+    <string name="thermal_benchmark">বেঞ্চমার্ক</string>
+    <string name="thermal_browser">ব্রাউসার</string>
+    <string name="thermal_camera">Camera</string>
+    <string name="thermal_dialer">ডায়ালার</string>
+    <string name="thermal_gaming">গেমিং</string>
+    <string name="thermal_streaming">স্ট্রিমিং</string>
+    <!-- Vibration control -->
+    <string name="vibrator_title">ভাইব্রেটর</string>
+    <string name="vib_strength_title_head">সিস্টেমের শক্তি</string>
+    <string name="vib_strength_summary_head">ভাইব্রেটরের শক্তি নির্ধারণ করুন</string>
+    <string name="vib_call_strength_title_head">কলের ক্ষেত্রে শক্তি</string>
+    <string name="vib_call_strength_summary_head">ইনকামিং কলের ক্ষেত্রে ভাইব্রেটরের শক্তি নির্ধারণ করুন</string>
+    <string name="vib_notif_strength_title_head">নোটিফিকেশনের ক্ষেত্রে শক্তি</string>
+    <string name="vib_notif_strength_summary_head">ইনকামিং নোটিফিকেশনের ক্ষেত্রে ভাইব্রেটরের শক্তি নির্ধারণ করুন</string>
+</resources>
