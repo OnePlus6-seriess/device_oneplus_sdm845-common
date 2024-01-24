@@ -24,7 +24,6 @@ import android.content.res.Resources;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.os.SELinux;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.view.MenuItem;
@@ -47,9 +46,6 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.TwoStatePreference;
 
 import com.awaken.device.DeviceSettings.FileUtils;
-import com.awaken.device.DeviceSettings.R;
-import com.awaken.device.DeviceSettings.SuShell;
-import com.awaken.device.DeviceSettings.SuTask;
 import com.awaken.device.DeviceSettings.speaker.ClearSpeakerActivity;
 import com.awaken.device.DeviceSettings.doze.DozeSettingsActivity;
 import com.awaken.device.DeviceSettings.preferences.ProperSeekBarPreference;
@@ -79,10 +75,6 @@ public class DeviceSettings extends PreferenceFragment
     public static final String KEY_NOTIF_VIBSTRENGTH = "vib_notif_strength";
     private VibratorNotifStrengthPreference mVibratorNotifStrength;
 
-
-    private static final String SELINUX_CATEGORY = "selinux";
-    private static final String PREF_SELINUX_MODE = "selinux_mode";
-    private static final String PREF_SELINUX_PERSISTENCE = "selinux_persistence";
     private static final String PREF_CLEAR_SPEAKER = "clear_speaker_settings";
     private static final String PREF_DOZE = "advanced_doze_settings";
     private static final String PREF_THERMAL_PROFILES = "thermal_profiles";
@@ -100,8 +92,6 @@ public class DeviceSettings extends PreferenceFragment
     private ListPreference mMiddleKeyPref;
     private ListPreference mBottomKeyPref;
     private static SwitchPreference mFpsInfo;
-    private SwitchPreference mSelinuxMode;
-    private SwitchPreference mSelinuxPersistence;
     private Preference mClearSpeakerPref;
     private Preference mDozeSettings;
     private Preference mThermalProfiles;
@@ -167,23 +157,6 @@ public class DeviceSettings extends PreferenceFragment
         mFpsInfo.setChecked(prefs.getBoolean(KEY_FPS_INFO, false));
         mFpsInfo.setOnPreferenceChangeListener(this);
 
-
-        // SELinux
-        boolean isRooted = SuShell.detectValidSuInPath();
-        Preference selinuxCategory = findPreference(SELINUX_CATEGORY);
-        mSelinuxMode = (SwitchPreference) findPreference(PREF_SELINUX_MODE);
-        mSelinuxMode.setChecked(SELinux.isSELinuxEnforced());
-        mSelinuxMode.setOnPreferenceChangeListener(this);
-        mSelinuxMode.setEnabled(isRooted);
-
-        mSelinuxPersistence =
-        (SwitchPreference) findPreference(PREF_SELINUX_PERSISTENCE);
-        mSelinuxPersistence.setOnPreferenceChangeListener(this);
-        mSelinuxPersistence.setChecked(getContext()
-        .getSharedPreferences("selinux_pref", Context.MODE_PRIVATE)
-        .contains(PREF_SELINUX_MODE));
-        mSelinuxPersistence.setEnabled(isRooted);
-
         mClearSpeakerPref = (Preference) findPreference(PREF_CLEAR_SPEAKER);
         mClearSpeakerPref.setOnPreferenceClickListener(preference -> {
             Intent intent = new Intent(getActivity().getApplicationContext(), ClearSpeakerActivity.class);
@@ -227,16 +200,10 @@ public class DeviceSettings extends PreferenceFragment
             SharedPreferences.Editor prefChange = PreferenceManager.getDefaultSharedPreferences(getContext()).edit();
             prefChange.putBoolean(KEY_AUTO_HBM_SWITCH, enabled).commit();
             Utils.enableService(getContext());
-        } else if (preference == mSelinuxMode) {
-            boolean enabled = (Boolean) newValue;
-            new SwitchSelinuxTask(getActivity()).execute(enabled);
-            setSelinuxEnabled(enabled, mSelinuxPersistence.isChecked());
-        } else if (preference == mSelinuxPersistence) {
-            setSelinuxEnabled(mSelinuxMode.isChecked(), (Boolean) newValue);
-        } else if (preference == mEarpieceGain) {    
-            FileUtils.setValue(EARPIECE_GAIN_PATH, newValue + " " + newValue); 
-        } else if (preference == mMicrophoneGain) {    
-            FileUtils.setValue(MICROPHONE_GAIN_PATH, newValue + " " + newValue);             ;       
+        } else if (preference == mEarpieceGain) {
+            FileUtils.setValue(EARPIECE_GAIN_PATH, newValue + " " + newValue);
+        } else if (preference == mMicrophoneGain) {
+            FileUtils.setValue(MICROPHONE_GAIN_PATH, newValue + " " + newValue);
         } else {
             Constants.setPreferenceInt(getContext(), preference.getKey(), Integer.parseInt((String) newValue));
         }
@@ -257,43 +224,5 @@ public class DeviceSettings extends PreferenceFragment
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    private void setSelinuxEnabled(boolean status, boolean persistent) {
-      SharedPreferences.Editor editor = getContext()
-          .getSharedPreferences("selinux_pref", Context.MODE_PRIVATE).edit();
-      if (persistent) {
-        editor.putBoolean(PREF_SELINUX_MODE, status);
-      } else {
-        editor.remove(PREF_SELINUX_MODE);
-      }
-      editor.apply();
-      mSelinuxMode.setChecked(status);
-    }
-
-    private class SwitchSelinuxTask extends SuTask<Boolean> {
-      public SwitchSelinuxTask(Context context) {
-        super(context);
-      }
-      @Override
-      protected void sudoInBackground(Boolean... params) throws SuShell.SuDeniedException {
-        if (params.length != 1) {
-          return;
-        }
-        if (params[0]) {
-          SuShell.runWithSuCheck("setenforce 1");
-        } else {
-          SuShell.runWithSuCheck("setenforce 0");
-        }
-      }
-
-      @Override
-      protected void onPostExecute(Boolean result) {
-        super.onPostExecute(result);
-        if (!result) {
-          // Did not work, so restore actual value
-          setSelinuxEnabled(SELinux.isSELinuxEnforced(), mSelinuxPersistence.isChecked());
-        }
-      }
     }
 }

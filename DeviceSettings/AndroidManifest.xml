@@ -75,7 +75,6 @@
 
         <receiver 
             android:name="com.awaken.device.DeviceSettings.Startup" 
-            android:enabled="true"
             android:exported="false">
             <intent-filter android:priority="100" >
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
