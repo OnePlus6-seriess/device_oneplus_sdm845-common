@@ -160,4 +160,11 @@ public class Utils {
             return false;
         }
     }
+    public static boolean getFileValueAsBoolean(String filename, boolean defValue) {
+        String fileValue = getValue(filename);
+        if (fileValue != null) {
+            return !fileValue.equals("0");
+        }
+        return defValue;
+    }
 }

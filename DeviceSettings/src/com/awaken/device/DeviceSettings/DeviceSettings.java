@@ -68,6 +68,10 @@ public class DeviceSettings extends PreferenceFragment
 
     public static final String KEY_FPS_INFO = "fps_info";
 
+    public static final String CATEGORY_FASTCHARGE = "usb_fastcharge";
+    public static final String PREF_USB_FASTCHARGE = "fastcharge";
+    public static final String USB_FASTCHARGE_PATH = "/sys/kernel/fast_charge/force_fast_charge";
+
     public static final String KEY_VIBSTRENGTH = "vib_strength";
     private VibratorStrengthPreference mVibratorStrength;
     public static final String KEY_CALL_VIBSTRENGTH = "vib_call_strength";
@@ -97,6 +101,7 @@ public class DeviceSettings extends PreferenceFragment
     private Preference mThermalProfiles;
     private ProperSeekBarPreference mEarpieceGain;
     private ProperSeekBarPreference mMicrophoneGain;
+    private SecureSettingSwitchPreference mFastcharge;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -209,6 +214,15 @@ public class DeviceSettings extends PreferenceFragment
         }
 
         return true;
+
+        if (FileUtils.fileWritable(USB_FASTCHARGE_PATH)) {
+            mFastcharge = (SecureSettingSwitchPreference) findPreference(PREF_USB_FASTCHARGE);
+            mFastcharge.setEnabled(Fastcharge.isSupported());
+            mFastcharge.setChecked(Fastcharge.isCurrentlyEnabled(this.getContext()));
+            mFastcharge.setOnPreferenceChangeListener(new Fastcharge(getContext()));
+        } else {
+            getPreferenceScreen().removePreference(findPreference(CATEGORY_FASTCHARGE));
+        }
     }
 
     public static boolean isAUTOHBMEnabled(Context context) {

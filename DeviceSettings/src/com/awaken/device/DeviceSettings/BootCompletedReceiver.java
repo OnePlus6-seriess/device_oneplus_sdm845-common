@@ -27,7 +27,7 @@ import com.awaken.device.DeviceSettings.thermal.ThermalUtils;
 public class BootCompletedReceiver extends BroadcastReceiver {
 
     private static final boolean DEBUG = false;
-    private static final String TAG = "OnePlus Settings";
+    private static final String TAG = "OnePlus Lab";
 
     @Override
     public void onReceive(final Context context, Intent intent) {
