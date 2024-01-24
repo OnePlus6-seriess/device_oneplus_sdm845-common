@@ -186,6 +186,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
+# Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
@@ -402,7 +406,6 @@ PRODUCT_PACKAGES += \
 
 # tri-state-key
 PRODUCT_PACKAGES += \
-    KeyHandler \
     tri-state-key_daemon.vendor
 
 # Trust HAL
