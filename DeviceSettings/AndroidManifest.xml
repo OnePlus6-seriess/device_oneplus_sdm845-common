@@ -124,6 +124,18 @@
             </intent-filter>
         </service>
 
+        <!-- Clear Speaker -->
+        <activity
+            android:name=".speaker.ClearSpeakerActivity" 
+            android:exported="false" 
+            android:label="@string/clear_speaker_title">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <!-- FPS overlay tile -->
         <service
             android:name=".FPSTileService"

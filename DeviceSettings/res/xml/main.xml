@@ -174,4 +174,19 @@
             android:persistent="false"
             android:summary="@string/vibration_strength_warning" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="speaker"
+        android:title="@string/speaker_category">
+
+       <Preference
+            android:key="clear_speaker_settings"
+            android:title="@string/clear_speaker_title"
+            android:icon="@drawable/ic_speaker_cleaner_icon" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.awaken.device.DeviceSettings.speaker.ClearSpeakerActivity"
+                android:targetPackage="com.awaken.device.DeviceSettings.speaker" />
+       </Preference>
+    </PreferenceCategory>
 </PreferenceScreen>
