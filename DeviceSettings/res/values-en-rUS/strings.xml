@@ -28,26 +28,6 @@
     <string name="off_mode_title">Off</string>
     <string name="tile_hbm_mode">High brightness modes</string>
     <string name="tile_dc_mode">DC-Dimming</string>
-    <!-- Doze -->
-    <string name="doze_panel_title">Doze</string>
-    <string name="ambient_display_gestures_title">Ambient display gestures</string>
-    <string name="ambient_display_gestures_summary">Additional gestures to wake the screen</string>
-    <string name="doze_settings_help_title">Help</string>
-    <string name="doze_settings_help_text">These features use sensor events to launch a doze notification pulse. The chosen sensor is only enabled when the device receives a notification, this helps to reduce battery usage. There is also an option to enable the chosen sensor as soon as the screen turns off, this will cause higher battery usage.</string>
-    <string name="dialog_ok">OK</string>
-    <string name="switch_bar_off">Off</string>
-    <string name="switch_bar_on">On</string>
-    <string name="ambient_display_title">Ambient display</string>
-    <string name="ambient_display_always_on_title">Always on</string>
-    <string name="ambient_display_always_on_summary">Show time, notification icons, and other info. Increased battery usage.</string>
-    <string name="pickup_sensor_title">Pickup sensor</string>
-    <string name="pick_up_gesture_title">Pick-up</string>
-    <string name="pick_up_gesture_summary">Pulse notifications on pick-up</string>
-    <string name="raise_to_wake_gesture_title">Raise to wake</string>
-    <string name="raise_to_wake_gesture_summary">Wake up the device instead of pulsing notification</string>
-    <string name="proximity_sensor_title">Proximity sensor</string>
-    <string name="pocket_gesture_title">Pocket</string>
-    <string name="pocket_gesture_summary">Pulse notifications on removal from pocket</string>
     <!-- FPS info -->
     <string name="fps_title">Measured FPS</string>
     <string name="fps_info_title">FPS overlay</string>

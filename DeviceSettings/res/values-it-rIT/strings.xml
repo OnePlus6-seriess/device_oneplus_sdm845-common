@@ -27,26 +27,6 @@
     <string name="off_mode_title">Disattivato</string>
     <string name="tile_hbm_mode">Modalità alta luminosità</string>
     <string name="tile_dc_mode">DC-Dimming</string>
-    <!-- Doze -->
-    <string name="doze_panel_title">Doze</string>
-    <string name="ambient_display_gestures_title">Gesti Ambient Display</string>
-    <string name="ambient_display_gestures_summary">Gesti aggiuntivi per riattivare lo schermo</string>
-    <string name="doze_settings_help_title">Aiuto</string>
-    <string name="doze_settings_help_text">Queste funzionalità utilizzano gli eventi del sensore per lanciare un impulso di notifica doze. Il sensore scelto è abilitato solo quando il dispositivo riceve una notifica, questo aiuta a ridurre l\'utilizzo della batteria. C\'è anche un\'opzione per abilitare il sensore scelto non appena lo schermo si spegne, questo causerà un maggiore utilizzo della batteria.</string>
-    <string name="dialog_ok">OK</string>
-    <string name="switch_bar_off">Disattivato</string>
-    <string name="switch_bar_on">Attivato</string>
-    <string name="ambient_display_title">Ambient display</string>
-    <string name="ambient_display_always_on_title">Sempre acceso</string>
-    <string name="ambient_display_always_on_summary">Mostra ora, icone di notifica e altre informazioni. Maggiore utilizzo della batteria.</string>
-    <string name="pickup_sensor_title">Sensore di sollevamento</string>
-    <string name="pick_up_gesture_title">Raccolta</string>
-    <string name="pick_up_gesture_summary">Notifiche lampeggianti alla raccolta</string>
-    <string name="raise_to_wake_gesture_title">Alza per riattivare</string>
-    <string name="raise_to_wake_gesture_summary">Risveglia il dispositivo invece di ricevere notifiche pulsanti</string>
-    <string name="proximity_sensor_title">Sensore di prossimità</string>
-    <string name="pocket_gesture_title">Tasca</string>
-    <string name="pocket_gesture_summary">Notifiche lampeggianti alla rimozione dalla tasca</string>
     <!-- FPS info -->
     <string name="fps_title">FPS Misurati</string>
     <string name="fps_info_title">FPS a schermo</string>

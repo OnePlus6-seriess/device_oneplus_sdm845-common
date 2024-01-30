@@ -27,26 +27,6 @@
     <string name="off_mode_title">Wyłączone</string>
     <string name="tile_hbm_mode">Tryb wysokiej jasności</string>
     <string name="tile_dc_mode">DC-Dimming</string>
-    <!-- Doze -->
-    <string name="doze_panel_title">Drzemka</string>
-    <string name="ambient_display_gestures_title">Gesty Ambient Display</string>
-    <string name="ambient_display_gestures_summary">Dodatkowe gesty, aby wybudzić ekran</string>
-    <string name="doze_settings_help_title">Pomoc</string>
-    <string name="doze_settings_help_text">Te funkcje używają czujników do uruchamiania impulsu powiadomień drzemki. Wybrany czujnik jest włączony tylko wtedy, gdy urządzenie otrzyma powiadomienie, co pomaga zmniejszyć zużycie baterii. Istnieje również opcja, aby włączyć wybrany czujnik, gdy tylko ekran zostanie wyłączony, spowoduje to większe zużycie baterii.</string>
-    <string name="dialog_ok">OK</string>
-    <string name="switch_bar_off">Wyłączony</string>
-    <string name="switch_bar_on">Włączony</string>
-    <string name="ambient_display_title">Ambient Display</string>
-    <string name="ambient_display_always_on_title">Zawsze włączony</string>
-    <string name="ambient_display_always_on_summary">Pokaż czas, ikony powiadomień i inne informacje. Zwiększone zużycie baterii.</string>
-    <string name="pickup_sensor_title">Czujnik podnoszenia</string>
-    <string name="pick_up_gesture_title">Podnoszenie</string>
-    <string name="pick_up_gesture_summary">Pulsujące powiadomienia przy podniesieniu</string>
-    <string name="raise_to_wake_gesture_title">Podnieś, by wybudzić</string>
-    <string name="raise_to_wake_gesture_summary">Wybudź urządzenie zamiast pulsowania powiadomień</string>
-    <string name="proximity_sensor_title">Czujnik zbliżeniowy</string>
-    <string name="pocket_gesture_title">Kieszeń</string>
-    <string name="pocket_gesture_summary">Pulsujące powiadomienia po wyjęciu z kieszeni</string>
     <!-- FPS info -->
     <string name="fps_title">Zmierzone FPS</string>
     <string name="fps_info_title">Nakładka FPS</string>

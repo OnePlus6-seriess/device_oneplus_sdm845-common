@@ -27,26 +27,6 @@
     <string name="off_mode_title">Apagado</string>
     <string name="tile_hbm_mode">Modos de brillo alto</string>
     <string name="tile_dc_mode">DC-Atenuación</string>
-    <!-- Doze -->
-    <string name="doze_panel_title">Doze</string>
-    <string name="ambient_display_gestures_title">Gestos de pantalla ambiente</string>
-    <string name="ambient_display_gestures_summary">Gestos adicionales para despertar la pantalla</string>
-    <string name="doze_settings_help_title">Ayuda</string>
-    <string name="doze_settings_help_text">Estas características usan eventos del sensor para lanzar un pulso de notificación de doze. El sensor seleccionado solo está activado cuando el dispositivo recibe una notificación, lo que ayuda a reducir el uso de la batería. También hay una opción para habilitar el sensor seleccionado tan pronto como la pantalla se apague y esto causará un mayor uso de la batería.</string>
-    <string name="dialog_ok">Okay</string>
-    <string name="switch_bar_off">Apagado</string>
-    <string name="switch_bar_on">Encendido</string>
-    <string name="ambient_display_title">Pantalla ambiental</string>
-    <string name="ambient_display_always_on_title">Siempre encendido</string>
-    <string name="ambient_display_always_on_summary">Mostrar tiempo, iconos de notificación y otra información. Aumenta el uso de la batería.</string>
-    <string name="pickup_sensor_title">Captura del sensor</string>
-    <string name="pick_up_gesture_title">Recoger</string>
-    <string name="pick_up_gesture_summary">Notificaciones de pulso al recoger</string>
-    <string name="raise_to_wake_gesture_title">Levantar para despertar</string>
-    <string name="raise_to_wake_gesture_summary">Despierta el dispositivo en lugar de pulsar la notificación</string>
-    <string name="proximity_sensor_title">Sensor de proximidad</string>
-    <string name="pocket_gesture_title">Bolsillo</string>
-    <string name="pocket_gesture_summary">Notificaciones de pulso al eliminar del bolsillo</string>
     <!-- FPS info -->
     <string name="fps_title">FPS medido</string>
     <string name="fps_info_title">FPS overlay</string>

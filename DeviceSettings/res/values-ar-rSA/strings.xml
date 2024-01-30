@@ -27,26 +27,6 @@
     <string name="off_mode_title">متوقف</string>
     <string name="tile_hbm_mode">وضع السطوع العالي</string>
     <string name="tile_dc_mode">DC-Dimming</string>
-    <!-- Doze -->
-    <string name="doze_panel_title">غموض</string>
-    <string name="ambient_display_gestures_title">إيماءات العرض المحيطي</string>
-    <string name="ambient_display_gestures_summary">إيماءات إضافية لإيقاظ الشاشة</string>
-    <string name="doze_settings_help_title">مساعدة</string>
-    <string name="doze_settings_help_text">تستخدم هذه الميزات أحداث استشعار لتشغيل نبض تنبيه. يتم تمكين المستشعر المختار فقط عندما يتلقى الجهاز إشعار، وهذا يساعد على تقليل استخدام البطارية. هناك أيضًا خيار لتمكين المستشعر المختار بمجرد إيقاف تشغيل الشاشة، سيؤدي هذا إلى زيادة استخدام البطارية.</string>
-    <string name="dialog_ok">حسناً</string>
-    <string name="switch_bar_off">متوقف</string>
-    <string name="switch_bar_on">تشغيل</string>
-    <string name="ambient_display_title">عرض المحيط</string>
-    <string name="ambient_display_always_on_title">دائماً مفعل</string>
-    <string name="ambient_display_always_on_summary">إظهار الوقت، أيقونات الإشعار، ومعلومات أخرى. زيادة استخدام البطارية.</string>
-    <string name="pickup_sensor_title">مستشعر التقاط</string>
-    <string name="pick_up_gesture_title">التقاط</string>
-    <string name="pick_up_gesture_summary">التنبيهات النبضية عند الالتقاط</string>
-    <string name="raise_to_wake_gesture_title">ارفع إلى إيقاظ</string>
-    <string name="raise_to_wake_gesture_summary">إيقاظ الجهاز بدلاً من إشعار النبض</string>
-    <string name="proximity_sensor_title">مستشعر القرب</string>
-    <string name="pocket_gesture_title">الجيب</string>
-    <string name="pocket_gesture_summary">التنبيهات النبضية عند الإزالة من الجيب</string>
     <!-- FPS info -->
     <string name="fps_title">FPS مقيسة</string>
     <string name="fps_info_title">FPS overlay</string>

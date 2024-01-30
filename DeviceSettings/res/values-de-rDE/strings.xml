@@ -27,26 +27,6 @@
     <string name="off_mode_title">Aus</string>
     <string name="tile_hbm_mode">Hohe Helligkeit Modus</string>
     <string name="tile_dc_mode">DC-Dimmen</string>
-    <!-- Doze -->
-    <string name="doze_panel_title">Schlummern</string>
-    <string name="ambient_display_gestures_title">Inaktivitätsbildschirm-Gesten</string>
-    <string name="ambient_display_gestures_summary">Zusätzliche Gesten zum Wecken des Bildschirms</string>
-    <string name="doze_settings_help_title">Hilfe</string>
-    <string name="doze_settings_help_text">Diese Funktionen verwenden Sensorereignisse, um einen Schlummern-Benachrichtigungsimplus zu starten. Der gewählte Sensor ist nur aktiviert, wenn das Gerät eine Benachrichtigung erhält. Dies hilft den Akkuverbrauch zu reduzieren. Es gibt auch eine Option, den gewählten Sensor zu aktivieren, sobald sich der Bildschirm ausschaltet. Dies führt zu einem höheren Akkuverbrauch.</string>
-    <string name="dialog_ok">OK</string>
-    <string name="switch_bar_off">Aus</string>
-    <string name="switch_bar_on">An</string>
-    <string name="ambient_display_title">Inaktivitätsbildschirm</string>
-    <string name="ambient_display_always_on_title">Immer an</string>
-    <string name="ambient_display_always_on_summary">Uhrzeit, Benachrichtigungssymbole und andere Informationen anzeigen. Erhöhter Akkuverbrauch.</string>
-    <string name="pickup_sensor_title">Abholsensor</string>
-    <string name="pick_up_gesture_title">Aufheben</string>
-    <string name="pick_up_gesture_summary">Pulsbenachrichtigungen bei Aufhebung</string>
-    <string name="raise_to_wake_gesture_title">Zum Wecken heben</string>
-    <string name="raise_to_wake_gesture_summary">Wecken Sie das Gerät auf, anstatt die Benachrichtigung zu pulsieren</string>
-    <string name="proximity_sensor_title">Näherungssensor</string>
-    <string name="pocket_gesture_title">Tasche</string>
-    <string name="pocket_gesture_summary">Pulsbenachrichtigung beim Nehmen aus der Tasche</string>
     <!-- FPS info -->
     <string name="fps_title">Gemessene FPS</string>
     <string name="fps_info_title">FPS overlay</string>

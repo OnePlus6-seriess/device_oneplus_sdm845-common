@@ -27,26 +27,6 @@
     <string name="off_mode_title">बंद</string>
     <string name="tile_hbm_mode">उच्च चमक मोड</string>
     <string name="tile_dc_mode">डीसी धुंधली</string>
-    <!-- Doze -->
-    <string name="doze_panel_title">Doze</string>
-    <string name="ambient_display_gestures_title">परिवेश प्रदर्शन इशारों</string>
-    <string name="ambient_display_gestures_summary">स्क्रीन को जगाने के लिए अतिरिक्त इशारे</string>
-    <string name="doze_settings_help_title">मदद</string>
-    <string name="doze_settings_help_text">ये फीचर डोज नोटिफिकेशन पल्स लॉन्च करने के लिए सेंसर इवेंट का उपयोग करते हैं। चुना हुआ सेंसर केवल तभी सक्षम होता है जब डिवाइस को सूचना मिलती है, इससे बैटरी के उपयोग को कम करने में मदद मिलती है। स्क्रीन को बंद करने के साथ ही चुने हुए सेंसर को सक्षम करने का विकल्प भी है, इससे बैटरी का उपयोग अधिक होगा।</string>
-    <string name="dialog_ok">ठीक है</string>
-    <string name="switch_bar_off">बंद</string>
-    <string name="switch_bar_on">चालू</string>
-    <string name="ambient_display_title">परिवेश प्रदर्शन</string>
-    <string name="ambient_display_always_on_title">हमेशा बने रहें</string>
-    <string name="ambient_display_always_on_summary">समय, अधिसूचना आइकन और अन्य जानकारी दिखाएं। बैटरी का उपयोग बढ़ा।</string>
-    <string name="pickup_sensor_title">पिक सेंसर</string>
-    <string name="pick_up_gesture_title">उठाना</string>
-    <string name="pick_up_gesture_summary">पिक-अप पर पल्स नोटिफिकेशन</string>
-    <string name="raise_to_wake_gesture_title">उठने के लिए</string>
-    <string name="raise_to_wake_gesture_summary">डिवाइस को पल्सिंग नोटिफिकेशन के बजाय जागो</string>
-    <string name="proximity_sensor_title">मौजूदगी पता लगाने वाला सेंसर</string>
-    <string name="pocket_gesture_title">जेब</string>
-    <string name="pocket_gesture_summary">जेब से निकालने पर पल्स नोटिफिकेशन</string>
     <!-- FPS info -->
     <string name="fps_title">मापा एफपीएस</string>
     <string name="fps_info_title">एफपीएस ओवरले</string>

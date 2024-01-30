@@ -27,26 +27,6 @@
     <string name="off_mode_title">বন্ধ</string>
     <string name="tile_hbm_mode">সর্বোচ্চ উজ্জলতা মোড</string>
     <string name="tile_dc_mode">ডিসি-ডিমিং (ডিসপ্লে তে আসা কারেন্ট নিয়ন্ত্রণ)</string>
-    <!-- Doze -->
-    <string name="doze_panel_title">ডোজ</string>
-    <string name="ambient_display_gestures_title">অ্যাম্বিয়েন্ট ডিসপ্লে জেশ্চারস</string>
-    <string name="ambient_display_gestures_summary">স্ক্রীন চালু করতে অতিরিক্ত জেশ্চারস</string>
-    <string name="doze_settings_help_title">সাহায্য</string>
-    <string name="doze_settings_help_text">এই ফিচারগুলো ডোজ নোটিফিকেশন পালস চালু করতে সেন্সর ব্যবহার করে। চিহ্নিত সেন্সরগুলো শুধুমাত্র নোটিফিকেশন আসলেই চালু হয়, যা ব্যাটারির ব্যবহার কমায়। আরো একটি অপশন আছে যেটি স্ক্রিন বন্ধ হওয়ার সাথে সাথে সেন্সর চালু করে দেয় যা ব্যাটারির ব্যবহার বাড়িয়ে দেয়।</string>
-    <string name="dialog_ok">ওকে</string>
-    <string name="switch_bar_off">বন্ধ</string>
-    <string name="switch_bar_on">চালু</string>
-    <string name="ambient_display_title">এম্বিয়েন্ট ডিসপ্লে</string>
-    <string name="ambient_display_always_on_title">সব সময় চালু</string>
-    <string name="ambient_display_always_on_summary">সময, নোটিফিকেশন আইকন এবং অন্যান্য তথ্য দেখানো।অতিরিক্ত ব্যাটারির ব্যবহার।</string>
-    <string name="pickup_sensor_title">পিকআপ সেন্সর</string>
-    <string name="pick_up_gesture_title">পিক-আপ</string>
-    <string name="pick_up_gesture_summary">পিক-আপের সময় নোটিফিকেশন পালস</string>
-    <string name="raise_to_wake_gesture_title">উঠালে চালু হওয়া</string>
-    <string name="raise_to_wake_gesture_summary">নোটিফিকেশন পালসিং এর বদলে ফোন চালু হওয়া</string>
-    <string name="proximity_sensor_title">প্রক্সিমিটি সেন্সর</string>
-    <string name="pocket_gesture_title">পকেট</string>
-    <string name="pocket_gesture_summary">পকেট থেকে বের করলে নোটিফিকেশন পালস</string>
     <!-- FPS info -->
     <string name="fps_title">FPS পরিমাপণ</string>
     <string name="fps_info_title">FPS overlay</string>

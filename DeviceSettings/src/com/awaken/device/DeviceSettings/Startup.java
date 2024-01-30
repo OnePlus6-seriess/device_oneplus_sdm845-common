@@ -69,9 +69,6 @@ public class Startup extends BroadcastReceiver {
         if (enabled) {
             context.startService(new Intent(context, FPSInfoService.class));
        }
-
-        com.awaken.device.DeviceSettings.doze.Utils.checkDozeService(context);
-        Utils.enableService(context);
     }
 
     private void restore(String file, boolean enabled) {

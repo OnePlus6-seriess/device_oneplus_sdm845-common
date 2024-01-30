@@ -46,7 +46,6 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.TwoStatePreference;
 
 import com.awaken.device.DeviceSettings.FileUtils;
-import com.awaken.device.DeviceSettings.doze.DozeSettingsActivity;
 import com.awaken.device.DeviceSettings.speaker.ClearSpeakerActivity;
 import com.awaken.device.DeviceSettings.preferences.ProperSeekBarPreference;
 import com.awaken.device.DeviceSettings.preferences.VibratorCallStrengthPreference;
@@ -77,7 +76,6 @@ public class DeviceSettings extends PreferenceFragment
     private VibratorCallStrengthPreference mVibratorCallStrength;
     public static final String KEY_NOTIF_VIBSTRENGTH = "vib_notif_strength";
     private VibratorNotifStrengthPreference mVibratorNotifStrength;
-    private static final String PREF_DOZE = "advanced_doze_settings";
     public static final String KEY_SETTINGS_PREFIX = "device_setting_";
     private static final String PREF_CLEAR_SPEAKER = "clear_speaker_settings";
 
@@ -147,13 +145,6 @@ public class DeviceSettings extends PreferenceFragment
         mFpsInfo = (SwitchPreference) findPreference(KEY_FPS_INFO);
         mFpsInfo.setChecked(prefs.getBoolean(KEY_FPS_INFO, false));
         mFpsInfo.setOnPreferenceChangeListener(this);
-
-        mDozeSettings = (Preference)findPreference(PREF_DOZE);
-        mDozeSettings.setOnPreferenceClickListener(preference -> {
-            Intent intent = new Intent(getActivity().getApplicationContext(), DozeSettingsActivity.class);
-            startActivity(intent);
-            return true;
-        });
 
         mMicrophoneGain = (CustomSeekBarPreference) findPreference(PREF_MICROPHONE_GAIN);
         mMicrophoneGain.setOnPreferenceChangeListener(this);
