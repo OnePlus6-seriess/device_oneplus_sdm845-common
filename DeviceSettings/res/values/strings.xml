@@ -94,4 +94,10 @@
     <string name="clear_speaker_title">Clear speaker</string>
     <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
     <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.\n\nWARNING: Ensure that any headphones are unplugged.</string>
+
+    <!-- OTG Mode -->
+    <string name="misc_title">Misc settings</string>
+    <string name="otg_mode_summary">Enable USB-OTG power supply for external headphones and flash drives</string>
+    <string name="otg_mode_title">Enable USB-OTG</string>
+    <string name="tile_otg_mode">Enable USB-OTG</string>
 </resources>

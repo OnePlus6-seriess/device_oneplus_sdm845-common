@@ -78,6 +78,7 @@ public class DeviceSettings extends PreferenceFragment
     private VibratorNotifStrengthPreference mVibratorNotifStrength;
     public static final String KEY_SETTINGS_PREFIX = "device_setting_";
     private static final String PREF_CLEAR_SPEAKER = "clear_speaker_settings";
+    public static final String KEY_OTG_SWITCH = "otg";
 
     private static TwoStatePreference mHBMModeSwitch;
     private static TwoStatePreference mAutoHBMSwitch;
@@ -91,6 +92,7 @@ public class DeviceSettings extends PreferenceFragment
     private CustomSeekBarPreference mMicrophoneGain;
     private CustomSeekBarPreference mEarpieceGain;
     private CustomSeekBarPreference mSpeakerGain;
+    private static TwoStatePreference mOTGModeSwitch;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -154,6 +156,11 @@ public class DeviceSettings extends PreferenceFragment
 
         mSpeakerGain = (CustomSeekBarPreference) findPreference(PREF_SPEAKER_GAIN);
         mSpeakerGain.setOnPreferenceChangeListener(this);
+
+        mOTGModeSwitch = (TwoStatePreference) findPreference(KEY_OTG_SWITCH);
+        mOTGModeSwitch.setEnabled(OTGModeSwitch.isSupported());
+        mOTGModeSwitch.setChecked(OTGModeSwitch.isCurrentlyEnabled(this.getContext()));
+        mOTGModeSwitch.setOnPreferenceChangeListener(new OTGModeSwitch());
 
         mClearSpeakerPref = (Preference) findPreference(PREF_CLEAR_SPEAKER);
         mClearSpeakerPref.setOnPreferenceClickListener(preference -> {
