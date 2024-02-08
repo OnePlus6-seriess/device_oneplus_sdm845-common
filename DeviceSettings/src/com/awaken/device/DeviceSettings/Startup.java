@@ -57,7 +57,7 @@ public class Startup extends BroadcastReceiver {
         mHBM = false;
         restore(DCModeSwitch.getFile(), enabled);
                }
-        enabled = sharedPrefs.getBoolean(RealmeParts.KEY_OTG_SWITCH, false);
+        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_OTG_SWITCH, false);
         restore(OTGModeSwitch.getFile(), enabled);
 
         FileUtils.setValue(DeviceSettings.MICROPHONE_GAIN_PATH, Settings.Secure.getInt(context.getContentResolver(),
